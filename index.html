@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PRIME Society — Innovation for a Poverty-Free Future</title>
-<meta name="description" content="PRIME Society is a nonprofit federation pioneering next-generation governance models to eradicate poverty through Autonomous Governance Experimental Zones (AGE-Zones).">
+<meta name="description" content="PRIME Society is a nonprofit federation pioneering next-generation governance models to eradicate poverty through Autonomous Governance Experimental Zones.">
+<link rel="alternate" hreflang="en" href="index.html">
+<link rel="alternate" hreflang="es" href="index.html">
+<link rel="alternate" hreflang="pt-BR" href="index.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -20,41 +23,42 @@
     </a>
     <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     <nav class="nav">
-      <a href="about.html">About</a>
-      <a href="intro.html">Intro</a>
-      <a href="index.html#prime-tools">PRIME Tools</a>
-      <a href="kairos.html">Kairos</a>
-      <a href="civitasnews.html">CivitasNews</a>
-      <a href="engage.html">Engage</a>
-      <a href="contact.html">Contact</a>
-      <a href="donate.html" class="nav-cta">Donate</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="intro.html" data-i18n="nav.intro">Intro</a>
+      <a href="index.html#prime-tools" data-i18n="nav.tools">PRIME Tools</a>
+      <a href="kairos.html" data-i18n="nav.kairos">Kairos</a>
+      <a href="civitasnews.html" data-i18n="nav.civitasnews">CivitasNews</a>
+      <a href="engage.html" data-i18n="nav.engage">Engage</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      <a href="donate.html" class="nav-cta" data-i18n="nav.donate">Donate</a>
     </nav>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h1>We believe that ending poverty is not only possible — it's within reach, and together, we can make it happen today.</h1>
-    <p class="subhead">Why wait for change? Support a PRIME Society today.</p>
+    <h1 data-i18n="hero.title">We believe that ending poverty is not only possible — it's within reach, and together, we can make it happen today.</h1>
+    <p class="subhead" data-i18n="hero.subtitle">Why wait for change? Support a PRIME Society today.</p>
     <div class="cta-row">
-      <a href="contact.html" class="btn btn-primary">Join the Federation</a>
-      <a href="donate.html" class="btn btn-outline">Donate</a>
-      <a href="#prime-tools" class="btn btn-outline">Explore PRIME Tools</a>
+      <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta_join">Join the Federation</a>
+      <a href="donate.html" class="btn btn-outline" data-i18n="hero.cta_donate">Donate</a>
+      <a href="#prime-tools" class="btn btn-outline" data-i18n="hero.cta_explore">Explore PRIME Tools</a>
     </div>
   </div>
 </section>
 
+<!-- About -->
 <section class="section">
   <div class="container">
     <div class="about-grid">
       <div>
-        <span class="eyebrow" style="text-transform:uppercase;letter-spacing:.15em;font-size:.8rem;color:var(--accent);font-weight:500;">About PRIME Society</span>
-        <h2 style="margin-top:.5rem;">A formula for a poverty-free, sustainable future.</h2>
-        <p>PRIME Society is a nonprofit federation that provides what we believe is the formula for a poverty-free and sustainable future — through cutting-edge tools, best practices, and open standards.</p>
-        <p>We are a global initiative dedicated to pioneering next-generation governance models designed to eradicate poverty through <strong>AGE-Zones</strong> policies (Autonomous Governance Experimental Zones).</p>
+        <span class="eyebrow" style="text-transform:uppercase;letter-spacing:.15em;font-size:.8rem;color:var(--accent);font-weight:500;" data-i18n="home.about_eyebrow">About PRIME Society</span>
+        <h2 style="margin-top:.5rem;" data-i18n="home.about_title">A formula for a poverty-free, sustainable future.</h2>
+        <p data-i18n="home.about_p1">PRIME Society is a nonprofit federation that provides what we believe is the formula for a poverty-free and sustainable future — through cutting-edge tools, best practices, and open standards.</p>
+        <p data-i18n-html="home.about_p2">We are a global initiative dedicated to pioneering next-generation governance models designed to eradicate poverty through <strong>AGE-Zones</strong> policies (Autonomous Governance Experimental Zones).</p>
         <div style="margin-top:1.5rem;display:flex;gap:.75rem;flex-wrap:wrap;">
-          <a href="contact.html" class="btn btn-primary">Join the Federation</a>
-          <a href="about.html" class="btn btn-dark">Read more</a>
+          <a href="contact.html" class="btn btn-primary" data-i18n="home.about_cta_join">Join the Federation</a>
+          <a href="about.html" class="btn btn-dark" data-i18n="home.about_cta_more">Read more</a>
         </div>
       </div>
       <img src="assets/img/2ba95a_a7ed62c133f143059e8ef4f3ea5e8647-mv2.jpg" alt="PRIME Society — vision">
@@ -62,124 +66,128 @@
   </div>
 </section>
 
+<!-- PRIME Tools -->
 <section class="section section-alt" id="prime-tools">
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow">PRIME Tools</span>
-      <h2>Tools, frameworks and open standards for a new architecture of power.</h2>
-      <p>A growing toolkit designed to empower communities, governments and organizations to build resilient, transparent, purpose-driven systems.</p>
+      <span class="eyebrow" data-i18n="home.tools_eyebrow">PRIME Tools</span>
+      <h2 data-i18n="home.tools_title">Tools, frameworks and open standards for a new architecture of power.</h2>
+      <p data-i18n="home.tools_subtitle">A growing toolkit designed to empower communities, governments and organizations to build resilient, transparent, purpose-driven systems.</p>
     </div>
     <div class="tools-grid">
       <article class="tool-card">
         <div class="img-wrap"><img src="assets/img/2ba95a_ccf858c72ae24ac7953c0e3e4a9fb076-mv2.webp" alt="PRIME Constitution"></div>
         <div class="body">
-          <h3>PRIME Constitution</h3>
-          <p>A foundational framework establishing the principles, rights and responsibilities of PRIME Societies.</p>
-          <span class="read-more">Read more →</span>
+          <h3 data-i18n="home.tools_constitution_title">PRIME Constitution</h3>
+          <p data-i18n="home.tools_constitution_desc">A foundational framework establishing the principles, rights and responsibilities of PRIME Societies.</p>
+          <span class="read-more" data-i18n="home.tools_readmore">Read more →</span>
         </div>
       </article>
       <article class="tool-card">
         <div class="img-wrap"><img src="assets/img/2ba95a_8afc6579d4934b0eafa62288b5af8eea-mv2.webp" alt="PRIME Tax"></div>
         <div class="body">
-          <h3>PRIME Tax</h3>
-          <p>A streamlined, transparent taxation model aligned with purpose-driven outcomes and measurable results.</p>
-          <span class="read-more">Read more →</span>
+          <h3 data-i18n="home.tools_tax_title">PRIME Tax</h3>
+          <p data-i18n="home.tools_tax_desc">A streamlined, transparent taxation model aligned with purpose-driven outcomes and measurable results.</p>
+          <span class="read-more" data-i18n="home.tools_readmore">Read more →</span>
         </div>
       </article>
       <article class="tool-card">
         <div class="img-wrap"><img src="assets/img/2ba95a_b03902dbda64497c961153294c6fc22c-mv2.webp" alt="PRIME Voting"></div>
         <div class="body">
-          <h3>PRIME Voting</h3>
-          <p>Decentralized, verifiable voting mechanisms designed for trust, participation and accountability.</p>
-          <span class="read-more">Read more →</span>
+          <h3 data-i18n="home.tools_voting_title">PRIME Voting</h3>
+          <p data-i18n="home.tools_voting_desc">Decentralized, verifiable voting mechanisms designed for trust, participation and accountability.</p>
+          <span class="read-more" data-i18n="home.tools_readmore">Read more →</span>
         </div>
       </article>
       <article class="tool-card">
-        <div class="img-wrap"><img src="assets/img/2ba95a_8ff859c7053d4f99a8dfbd80283e574f-mv2.webp" alt="PRIME City"></div>
+        <div class="img-wrap"><img src="assets/img/2ba95a_8ff859c7053d4f99a8dfbd80283e574f~mv2.webp" alt="PRIME City"></div>
         <div class="body">
-          <h3>PRIME City</h3>
-          <p>The blueprint for City 5.0 — urban systems engineered around purpose, data and human flourishing.</p>
-          <span class="read-more">Read more →</span>
+          <h3 data-i18n="home.tools_city_title">PRIME City</h3>
+          <p data-i18n="home.tools_city_desc">The blueprint for City 5.0 — urban systems engineered around purpose, data and human flourishing.</p>
+          <span class="read-more" data-i18n="home.tools_readmore">Read more →</span>
         </div>
       </article>
     </div>
     <div class="tools-extra">
-      <p style="color:var(--text-muted);">Discover additional tools: PRIME Auditing, PRIME DAO, PRIME Digital Citizenship, PRIME Framework, PRIME Immigration &amp; Migration, PRIME Judicial, PRIME Lessons Learned, PRIME Open Standards, PRIME Purpose-Board, PRIME Resilience &amp; Crisis Management, PRIME Rule-Based-System, PRIME Society Contract, PRIME Society Franchisee, PRIME Supply &amp; Demand, PRIME Training, Kairos, PrimeTalks…</p>
+      <p style="color:var(--text-muted);" data-i18n-html="home.tools_extra">Discover additional tools: PRIME Auditing, PRIME DAO…</p>
     </div>
   </div>
 </section>
 
+<!-- Team -->
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow">The Federation</span>
-      <h2>Meet our members</h2>
-      <p>A multidisciplinary team of leaders, experts and ambassadors building PRIME Society around the world.</p>
+      <span class="eyebrow" data-i18n="home.team_eyebrow">The Federation</span>
+      <h2 data-i18n="home.team_title">Meet our members</h2>
+      <p data-i18n="home.team_subtitle">A multidisciplinary team of leaders, experts and ambassadors building PRIME Society around the world.</p>
     </div>
     <div class="team-grid">
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_45c05eddf587481ea8c384edf68fb28c-mv2.jpg" alt="Daniel Schnaider"></div><div class="name">Daniel Schnaider</div><div class="role">Chairman</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_dc28b0cb35404828a65dbd66ab655f2d-mv2.jpg" alt="Alvaro Rosenblut"></div><div class="name">Alvaro Rosenblut</div><div class="role">Ambassador, Chile</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_9233219b0ee9487b8d37fee916616303-mv2.jpg" alt="Jorge Rosenblut"></div><div class="name">Jorge Rosenblut</div><div class="role">Ambassador, Florida, USA</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/783436_c3af374054284bc69628b6ef67939438-mv2.jpg" alt="Bruno Roberto Padovano"></div><div class="name">Bruno Roberto Padovano</div><div class="role">Urban Planner Expert, Brazil</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_944171dbf861469b919092938930aae4-mv2.jpg" alt="Caio Cavadas"></div><div class="name">Caio Cavadas</div><div class="role">Federation &amp; Partnerships</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_7d95592f824144b9b4adb8e5b4b00b47-mv2.jpg" alt="Dionisio Moreno"></div><div class="name">Dionisio Moreno</div><div class="role">Institutional Relations, Brazil</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_e3c1e1457f1b4cc18e55292874fae39a-mv2.jpg" alt="Eduardo Costa da Silva"></div><div class="name">Eduardo Costa da Silva</div><div class="role">Legal</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_f4690efab6e54555abbcb57c11ab6247-mv2.jpg" alt="Fernanda Baruffaldi"></div><div class="name">Fernanda Baruffaldi</div><div class="role">Content &amp; Editorial</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_50f8ab9c286a47888d691d95f982c261-mv2.jpg" alt="Hamilton Dona"></div><div class="name">Hamilton Dona</div><div class="role">Data Scientist</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_28699e71bf7d44ce817ba53a90518ede-mv2.jpg" alt="Nilson Brizoti"></div><div class="name">Nilson Brizoti</div><div class="role">Governance Expert</div></div>
-      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_8b0c35c1fb2f40d39b7f905dc0e57160-mv2.jpg" alt="Bandita B"></div><div class="name">Bandita B</div><div class="role">Graphic Designer, India</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_45c05eddf587481ea8c384edf68fb28c-mv2.jpg" alt="Daniel Schnaider"></div><div class="name">Daniel Schnaider</div><div class="role" data-i18n="team.daniel_role">Chairman</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_dc28b0cb35404828a65dbd66ab655f2d-mv2.jpg" alt="Alvaro Rosenblut"></div><div class="name">Alvaro Rosenblut</div><div class="role" data-i18n="team.alvaro_role">Ambassador, Chile</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_9233219b0ee9487b8d37fee916616303-mv2.jpg" alt="Jorge Rosenblut"></div><div class="name">Jorge Rosenblut</div><div class="role" data-i18n="team.jorge_role">Ambassador, Florida, USA</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/783436_c3af374054284bc69628b6ef67939438-mv2.jpg" alt="Bruno Roberto Padovano"></div><div class="name">Bruno Roberto Padovano</div><div class="role" data-i18n="team.bruno_role">Urban Planner Expert, Brazil</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_944171dbf861469b919092938930aae4-mv2.jpg" alt="Caio Cavadas"></div><div class="name">Caio Cavadas</div><div class="role" data-i18n="team.caio_role">Federation &amp; Partnerships</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_7d95592f824144b9b4adb8e5b4b00b47-mv2.jpg" alt="Dionisio Moreno"></div><div class="name">Dionisio Moreno</div><div class="role" data-i18n="team.dionisio_role">Institutional Relations, Brazil</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_e3c1e1457f1b4cc18e55292874fae39a-mv2.jpg" alt="Eduardo Costa da Silva"></div><div class="name">Eduardo Costa da Silva</div><div class="role" data-i18n="team.eduardo_role">Legal</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_f4690efab6e54555abbcb57c11ab6247-mv2.jpg" alt="Fernanda Baruffaldi"></div><div class="name">Fernanda Baruffaldi</div><div class="role" data-i18n="team.fernanda_role">Content &amp; Editorial</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_50f8ab9c286a47888d691d95f982c261-mv2.jpg" alt="Hamilton Dona"></div><div class="name">Hamilton Dona</div><div class="role" data-i18n="team.hamilton_role">Data Scientist</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_28699e71bf7d44ce817ba53a90518ede-mv2.jpg" alt="Nilson Brizoti"></div><div class="name">Nilson Brizoti</div><div class="role" data-i18n="team.nilson_role">Governance Expert</div></div>
+      <div class="team-member"><div class="photo-wrap"><img src="assets/img/2ba95a_8b0c35c1fb2f40d39b7f905dc0e57160-mv2.jpg" alt="Bandita B"></div><div class="name">Bandita B</div><div class="role" data-i18n="team.bandita_role">Graphic Designer, India</div></div>
     </div>
   </div>
 </section>
 
+<!-- News -->
 <section class="section section-alt">
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow">CivitasNews</span>
-      <h2>Shaping Tomorrow's Cities and Society Today</h2>
+      <span class="eyebrow" data-i18n="home.news_eyebrow">CivitasNews</span>
+      <h2 data-i18n="home.news_title">Shaping Tomorrow's Cities and Society Today</h2>
     </div>
     <div class="news-grid">
       <article class="news-card">
-        <div class="img-wrap"><img src="assets/img/4c2b77_1a581db0f2724bce843c8c5ecccda42e-mv2.jpeg" alt="Article cover"></div>
+        <div class="img-wrap"><img src="assets/img/4c2b77_1a581db0f2724bce843c8c5ecccda42e-mv2.jpeg" alt=""></div>
         <div class="body">
-          <span class="cat">Article</span>
-          <h3>AI and the Fight Against Poverty: Friend or Foe?</h3>
-          <p class="meta">By Daniel R. Schnaider</p>
+          <span class="cat" data-i18n="home.news_cat">Article</span>
+          <h3 data-i18n="home.news1_title">AI and the Fight Against Poverty: Friend or Foe?</h3>
+          <p class="meta" data-i18n="home.news1_author">By Daniel R. Schnaider</p>
         </div>
       </article>
       <article class="news-card">
-        <div class="img-wrap"><img src="assets/img/4c2b77_48d1bd4971b34a36b81ba951e1040850-mv2.jpg" alt="Article cover"></div>
+        <div class="img-wrap"><img src="assets/img/4c2b77_48d1bd4971b34a36b81ba951e1040850-mv2.jpg" alt=""></div>
         <div class="body">
-          <span class="cat">Article</span>
-          <h3>Culture as a Determining Factor of Success: Can It Be Influenced?</h3>
-          <p class="meta">By Daniel R. Schnaider</p>
+          <span class="cat" data-i18n="home.news_cat">Article</span>
+          <h3 data-i18n="home.news2_title">Culture as a Determining Factor of Success: Can It Be Influenced?</h3>
+          <p class="meta" data-i18n="home.news2_author">By Daniel R. Schnaider</p>
         </div>
       </article>
       <article class="news-card">
-        <div class="img-wrap"><img src="assets/img/2ba95a_c5d9d8d8c8b4436da2326999a346d7dd-mv2.jpeg" alt="Article cover"></div>
+        <div class="img-wrap"><img src="assets/img/2ba95a_c5d9d8d8c8b4436da2326999a346d7dd-mv2.jpeg" alt=""></div>
         <div class="body">
-          <span class="cat">Article</span>
-          <h3>From Guesswork to Evidence: When Data Steers the Course to Decisions</h3>
-          <p class="meta">By Daniel R. Schnaider · December 31, 2024</p>
+          <span class="cat" data-i18n="home.news_cat">Article</span>
+          <h3 data-i18n="home.news3_title">From Guesswork to Evidence: When Data Steers the Course to Decisions</h3>
+          <p class="meta" data-i18n="home.news3_meta">By Daniel R. Schnaider · December 31, 2024</p>
         </div>
       </article>
     </div>
     <div style="text-align:center;margin-top:2.5rem;">
-      <a href="civitasnews.html" class="btn btn-dark">View all content</a>
+      <a href="civitasnews.html" class="btn btn-dark" data-i18n="home.news_viewall">View all content</a>
     </div>
   </div>
 </section>
 
+<!-- Newsletter -->
 <section class="section">
   <div class="container">
     <div class="newsletter">
-      <h2>Stay updated with PRIME Society</h2>
-      <p style="color:var(--text-muted);">Subscribe to receive the latest articles, research and announcements.</p>
+      <h2 data-i18n="home.newsletter_title">Stay updated with PRIME Society</h2>
+      <p style="color:var(--text-muted);" data-i18n="home.newsletter_subtitle">Subscribe to receive the latest articles, research and announcements.</p>
       <form>
-        <input type="email" placeholder="Enter your email here" required>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <input type="email" data-i18n-placeholder="home.newsletter_placeholder" placeholder="Enter your email here" required>
+        <button type="submit" class="btn btn-primary" data-i18n="home.newsletter_cta">Sign Up</button>
       </form>
-      <div class="form-msg"></div>
+      <div class="form-msg" data-newsletter-thanks="home.newsletter_thanks"></div>
     </div>
   </div>
 </section>
@@ -189,7 +197,7 @@
     <div class="footer-grid">
       <div>
         <div class="brand"><img src="assets/img/2ba95a_a7b729c43ae545a69076a2e3129ac46a-mv2.png" alt="PRIME Society"></div>
-        <p style="color:rgba(255,255,255,0.65);font-size:.95rem;">Innovation for a Poverty-Free Future.</p>
+        <p style="color:rgba(255,255,255,0.65);font-size:.95rem;" data-i18n="footer.tagline">Innovation for a Poverty-Free Future.</p>
         <div class="socials" style="margin-top:1rem;">
           <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.3 2.2.4.5.2 1 .5 1.4 1 .4.4.7.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.8-.4 2.2-.2.5-.5 1-1 1.4-.4.4-.9.7-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.3-2.2-.4-.5-.2-1-.5-1.4-1-.4-.4-.7-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-1.8.4-2.2.2-.5.5-1 1-1.4.4-.4.9-.7 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 2.2c-3.1 0-3.5 0-4.7.1-1 .1-1.5.2-1.9.3-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.4-.3.9-.3 1.9-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.5.3 1.9.2.5.4.8.7 1.1.3.3.6.5 1.1.7.4.1.9.3 1.9.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.5-.2 1.9-.3.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.4.3-.9.3-1.9.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.5-.3-1.9-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.4-.1-.9-.3-1.9-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.7a3.9 3.9 0 1 1 0 7.8 3.9 3.9 0 0 1 0-7.8zm0 6.4a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm5-6.6a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0z"/></svg></a>
           <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13.5 21.5v-8.6h2.9l.4-3.4h-3.3V7.4c0-1 .3-1.7 1.7-1.7h1.8V2.7c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.5H7.1v3.4H10v8.6h3.5z"/></svg></a>
@@ -198,35 +206,36 @@
         </div>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4 data-i18n="footer.explore_title">Explore</h4>
         <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="index.html#prime-tools">PRIME Tools</a></li>
-          <li><a href="civitasnews.html">Content</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" data-i18n="footer.l_about">About</a></li>
+          <li><a href="index.html#prime-tools" data-i18n="footer.l_tools">PRIME Tools</a></li>
+          <li><a href="civitasnews.html" data-i18n="footer.l_content">Content</a></li>
+          <li><a href="contact.html" data-i18n="footer.l_contact">Contact</a></li>
         </ul>
       </div>
       <div>
-        <h4>Engage</h4>
+        <h4 data-i18n="footer.engage_title">Engage</h4>
         <ul>
-          <li><a href="engage.html">Engage</a></li>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="kairos.html">Kairos</a></li>
-          <li><a href="intro.html">Intro</a></li>
+          <li><a href="engage.html" data-i18n="footer.l_engage">Engage</a></li>
+          <li><a href="donate.html" data-i18n="footer.l_donate">Donate</a></li>
+          <li><a href="kairos.html" data-i18n="footer.l_kairos">Kairos</a></li>
+          <li><a href="intro.html" data-i18n="footer.l_intro">Intro</a></li>
         </ul>
       </div>
       <div>
-        <h4>Contact</h4>
+        <h4 data-i18n="footer.contact_title">Contact</h4>
         <ul>
           <li><a href="mailto:contact@primesociety.network">contact@primesociety.network</a></li>
         </ul>
       </div>
     </div>
-    <div class="copyright">© <span id="year"></span> PRIME Society. Innovation for a Poverty-Free Future.</div>
+    <div class="copyright">© <span id="year"></span> <span data-i18n="footer.copyright">PRIME Society. Innovation for a Poverty-Free Future.</span></div>
   </div>
 </footer>
 
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

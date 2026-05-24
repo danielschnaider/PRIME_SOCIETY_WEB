@@ -1,9 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact | PRIME Society</title>
+<link rel="alternate" hreflang="en" href="contact.html">
+<link rel="alternate" hreflang="es" href="contact.html">
+<link rel="alternate" hreflang="pt-BR" href="contact.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -19,23 +22,23 @@
     </a>
     <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     <nav class="nav">
-      <a href="about.html">About</a>
-      <a href="intro.html">Intro</a>
-      <a href="index.html#prime-tools">PRIME Tools</a>
-      <a href="kairos.html">Kairos</a>
-      <a href="civitasnews.html">CivitasNews</a>
-      <a href="engage.html">Engage</a>
-      <a href="contact.html" class="active">Contact</a>
-      <a href="donate.html" class="nav-cta">Donate</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="intro.html" data-i18n="nav.intro">Intro</a>
+      <a href="index.html#prime-tools" data-i18n="nav.tools">PRIME Tools</a>
+      <a href="kairos.html" data-i18n="nav.kairos">Kairos</a>
+      <a href="civitasnews.html" data-i18n="nav.civitasnews">CivitasNews</a>
+      <a href="engage.html" data-i18n="nav.engage">Engage</a>
+      <a href="contact.html" data-i18n="nav.contact" class="active">Contact</a>
+      <a href="donate.html" class="nav-cta" data-i18n="nav.donate">Donate</a>
     </nav>
   </div>
 </header>
 
 <section class="page-intro">
   <div class="container">
-    <span class="eyebrow">Get in touch</span>
-    <h1>Contact Us</h1>
-    <p>Be Part of a Global Federation for Better Governance and Societal Progress. Join PRIME Society and help shape the future through purpose-driven innovation, measurable results, and actionable solutions.</p>
+    <span class="eyebrow" data-i18n="contact.eyebrow">Get in touch</span>
+    <h1 data-i18n="contact.title">Contact Us</h1>
+    <p data-i18n="contact.subtitle">Be Part of a Global Federation for Better Governance and Societal Progress.</p>
   </div>
 </section>
 
@@ -43,59 +46,59 @@
   <div class="container">
     <div class="contact-grid">
       <div>
-        <h2>I'm interested</h2>
-        <p style="color:var(--text-muted);">Tell us a little about you and how you'd like to engage.</p>
+        <h2 data-i18n="contact.form_title">I'm interested</h2>
+        <p style="color:var(--text-muted);" data-i18n="contact.form_subtitle">Tell us a little about you and how you'd like to engage.</p>
         <form id="contact-form" style="margin-top:1.5rem;">
           <div class="form-group">
-            <label for="c-name">Name</label>
+            <label for="c-name" data-i18n="contact.f_name">Name</label>
             <input id="c-name" type="text" required>
           </div>
           <div class="form-group">
-            <label for="c-email">Email</label>
+            <label for="c-email" data-i18n="contact.f_email">Email</label>
             <input id="c-email" type="email" required>
           </div>
           <div class="form-group">
-            <label for="c-location">Location</label>
+            <label for="c-location" data-i18n="contact.f_location">Location</label>
             <input id="c-location" type="text">
           </div>
           <div class="form-group">
-            <label for="c-role">Role / Interest</label>
+            <label for="c-role" data-i18n="contact.f_role">Role / Interest</label>
             <select id="c-role">
-              <option>Partner</option>
-              <option>Researcher</option>
-              <option>Policymaker</option>
-              <option>Investor / Donor</option>
-              <option>Volunteer</option>
-              <option>Other</option>
+              <option data-i18n="contact.f_role_partner">Partner</option>
+              <option data-i18n="contact.f_role_researcher">Researcher</option>
+              <option data-i18n="contact.f_role_policy">Policymaker</option>
+              <option data-i18n="contact.f_role_investor">Investor / Donor</option>
+              <option data-i18n="contact.f_role_volunteer">Volunteer</option>
+              <option data-i18n="contact.f_role_other">Other</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="c-msg">How would you like to contribute?</label>
+            <label for="c-msg" data-i18n="contact.f_message">How would you like to contribute?</label>
             <textarea id="c-msg"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Send</button>
-          <div class="form-msg" style="margin-top:1rem;color:#1aaa55;"></div>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.f_send">Send</button>
+          <div class="form-msg" style="margin-top:1rem;color:#1aaa55;" data-contact-thanks="contact.f_thanks"></div>
         </form>
       </div>
       <div>
-        <h2>Ways to Get Involved</h2>
-        <p><strong>As a Partner:</strong> Collaborate with us to create, support, or promote PRIME Societies.</p>
-        <h3 style="margin-top:2rem;">Benefits of Joining PRIME Society</h3>
+        <h2 data-i18n="contact.ways_title">Ways to Get Involved</h2>
+        <p data-i18n="contact.ways_partner"><strong>As a Partner:</strong> Collaborate with us to create, support, or promote PRIME Societies.</p>
+        <h3 style="margin-top:2rem;" data-i18n="contact.benefits_title">Benefits of Joining PRIME Society</h3>
         <ul style="padding-left:1.25rem;color:var(--text);">
-          <li>Be part of a global network dedicated to innovation and progress.</li>
-          <li>Access cutting-edge resources, training, and tools.</li>
-          <li>Contribute to real solutions for societal challenges.</li>
-          <li>Collaborate with like-minded individuals and organizations.</li>
+          <li data-i18n="contact.b1">Be part of a global network dedicated to innovation and progress.</li>
+          <li data-i18n="contact.b2">Access cutting-edge resources, training, and tools.</li>
+          <li data-i18n="contact.b3">Contribute to real solutions for societal challenges.</li>
+          <li data-i18n="contact.b4">Collaborate with like-minded individuals and organizations.</li>
         </ul>
-        <h3 style="margin-top:2rem;">Prefer Direct Contact?</h3>
+        <h3 style="margin-top:2rem;" data-i18n="contact.direct_title">Prefer Direct Contact?</h3>
         <p><a href="mailto:contact@primesociety.network">contact@primesociety.network</a></p>
-        <h3 style="margin-top:2rem;">Stay Updated with PRIME Society</h3>
+        <h3 style="margin-top:2rem;" data-i18n="contact.newsletter_title">Stay Updated with PRIME Society</h3>
         <div class="newsletter" style="text-align:left;max-width:none;">
           <form>
-            <input type="email" placeholder="Enter your email here" required>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <input type="email" data-i18n-placeholder="contact.newsletter_placeholder" placeholder="Enter your email here" required>
+            <button type="submit" class="btn btn-primary" data-i18n="contact.newsletter_cta">Sign Up</button>
           </form>
-          <div class="form-msg"></div>
+          <div class="form-msg" data-newsletter-thanks="contact.newsletter_thanks"></div>
         </div>
       </div>
     </div>
@@ -107,7 +110,7 @@
     <div class="footer-grid">
       <div>
         <div class="brand"><img src="assets/img/2ba95a_a7b729c43ae545a69076a2e3129ac46a-mv2.png" alt="PRIME Society"></div>
-        <p style="color:rgba(255,255,255,0.65);font-size:.95rem;">Innovation for a Poverty-Free Future.</p>
+        <p style="color:rgba(255,255,255,0.65);font-size:.95rem;" data-i18n="footer.tagline">Innovation for a Poverty-Free Future.</p>
         <div class="socials" style="margin-top:1rem;">
           <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.3 2.2.4.5.2 1 .5 1.4 1 .4.4.7.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.8-.4 2.2-.2.5-.5 1-1 1.4-.4.4-.9.7-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.3-2.2-.4-.5-.2-1-.5-1.4-1-.4-.4-.7-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-1.8.4-2.2.2-.5.5-1 1-1.4.4-.4.9-.7 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 2.2c-3.1 0-3.5 0-4.7.1-1 .1-1.5.2-1.9.3-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.4-.3.9-.3 1.9-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.5.3 1.9.2.5.4.8.7 1.1.3.3.6.5 1.1.7.4.1.9.3 1.9.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.5-.2 1.9-.3.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.4.3-.9.3-1.9.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.5-.3-1.9-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.4-.1-.9-.3-1.9-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.7a3.9 3.9 0 1 1 0 7.8 3.9 3.9 0 0 1 0-7.8zm0 6.4a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm5-6.6a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0z"/></svg></a>
           <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13.5 21.5v-8.6h2.9l.4-3.4h-3.3V7.4c0-1 .3-1.7 1.7-1.7h1.8V2.7c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.5H7.1v3.4H10v8.6h3.5z"/></svg></a>
@@ -116,35 +119,36 @@
         </div>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4 data-i18n="footer.explore_title">Explore</h4>
         <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="index.html#prime-tools">PRIME Tools</a></li>
-          <li><a href="civitasnews.html">Content</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" data-i18n="footer.l_about">About</a></li>
+          <li><a href="index.html#prime-tools" data-i18n="footer.l_tools">PRIME Tools</a></li>
+          <li><a href="civitasnews.html" data-i18n="footer.l_content">Content</a></li>
+          <li><a href="contact.html" data-i18n="footer.l_contact">Contact</a></li>
         </ul>
       </div>
       <div>
-        <h4>Engage</h4>
+        <h4 data-i18n="footer.engage_title">Engage</h4>
         <ul>
-          <li><a href="engage.html">Engage</a></li>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="kairos.html">Kairos</a></li>
-          <li><a href="intro.html">Intro</a></li>
+          <li><a href="engage.html" data-i18n="footer.l_engage">Engage</a></li>
+          <li><a href="donate.html" data-i18n="footer.l_donate">Donate</a></li>
+          <li><a href="kairos.html" data-i18n="footer.l_kairos">Kairos</a></li>
+          <li><a href="intro.html" data-i18n="footer.l_intro">Intro</a></li>
         </ul>
       </div>
       <div>
-        <h4>Contact</h4>
+        <h4 data-i18n="footer.contact_title">Contact</h4>
         <ul>
           <li><a href="mailto:contact@primesociety.network">contact@primesociety.network</a></li>
         </ul>
       </div>
     </div>
-    <div class="copyright">© <span id="year"></span> PRIME Society. Innovation for a Poverty-Free Future.</div>
+    <div class="copyright">© <span id="year"></span> <span data-i18n="footer.copyright">PRIME Society. Innovation for a Poverty-Free Future.</span></div>
   </div>
 </footer>
 
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

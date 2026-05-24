@@ -38,6 +38,12 @@ p { margin-bottom: 1rem; color: var(--text); }
 
 .container { max-width: var(--max-w); margin: 0 auto; padding: 0 1.5rem; }
 
+/* ---------------- Language switcher ---------------- */
+.lang-switcher { display: flex; gap: 2px; align-items: center; margin-left: 0.5rem; background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 2px; }
+.lang-btn { background: transparent; border: none; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; color: var(--text-muted); font-family: inherit; transition: 0.15s; }
+.lang-btn:hover { color: var(--text); background: rgba(0,0,0,0.05); }
+.lang-btn.active { background: var(--accent); color: #fff; }
+
 /* ---------------- Header ---------------- */
 .site-header {
   position: sticky; top: 0; z-index: 100;
