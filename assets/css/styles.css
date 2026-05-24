@@ -16,6 +16,16 @@
 
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
+/* Skip-to-content link (visible only on keyboard focus) */
+.skip-link {
+  position: absolute; top: -50px; left: 50%; transform: translateX(-50%);
+  background: var(--accent); color: #fff; padding: 0.5rem 1.2rem;
+  border-radius: 0 0 var(--radius) var(--radius); font-weight: 500;
+  font-size: 0.9rem; z-index: 9999; text-decoration: none;
+  transition: top 0.2s ease;
+}
+.skip-link:focus { top: 0; color: #fff; }
+
 body {
   font-family: "Roboto", -apple-system, "Segoe UI", system-ui, sans-serif;
   font-weight: 300;
@@ -67,6 +77,8 @@ p { margin-bottom: 1rem; color: var(--text); }
   .nav.open { transform: translateY(0); }
   .nav a { padding: 0.75rem 0; width: 100%; border-bottom: 1px solid var(--border); }
   .menu-toggle { display: block; }
+  /* Lang switcher inside the mobile nav drawer */
+  .lang-switcher { margin: 0.75rem 0 0; align-self: flex-start; border-color: var(--border); }
 }
 
 /* ---------------- Hero ---------------- */
@@ -130,6 +142,15 @@ p { margin-bottom: 1rem; color: var(--text); }
 .team-member:hover img { filter: brightness(1.05); }
 .team-member .name { font-weight: 500; color: var(--text); margin-bottom: 0.2rem; }
 .team-member .role { color: var(--text-muted); font-size: 0.9rem; }
+
+/* News card link wrapper */
+.news-card-link { display: block; text-decoration: none; color: inherit; }
+.news-card-link:hover { color: inherit; }
+
+/* Team figure/figcaption reset */
+.team-member { text-align: center; }
+figure.team-member { margin: 0; }
+figcaption { margin-top: 0; }
 
 /* News */
 .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
