@@ -9,10 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  /**
-   * Get a translated string via the i18n engine if available,
-   * otherwise return the fallback text.
-   */
+  // i18n-aware form messages
   function t(key, fallback) {
     if (typeof PRIME_I18N !== "undefined" && typeof PRIME_I18N.t === "function") {
       const val = PRIME_I18N.t(key);
@@ -21,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return fallback;
   }
 
-  // Newsletter forms (there may be more than one per page, e.g. contact page)
+  // Newsletter forms
   document.querySelectorAll(".newsletter form").forEach((form) => {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
@@ -56,4 +53,52 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.classList.add("active");
     });
   });
+
+  // KPI counters — animate numbers up when the strip enters viewport
+  function formatKpi(val) {
+    if (val >= 1000000) return (val / 1000000).toFixed(1) + "M";
+    if (val >= 1000) return (val / 1000).toFixed(val >= 100000 ? 0 : 1) + "K";
+    return val.toLocaleString();
+  }
+
+  const kpiItems = document.querySelectorAll(".kpi-item[data-kpi]");
+  if (kpiItems.length) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        const target = parseInt(el.dataset.kpi, 10);
+        const numEl = el.querySelector(".kpi-num");
+        if (!numEl || el.dataset.animated) return;
+        el.dataset.animated = "1";
+        observer.unobserve(el);
+        let start = 0;
+        const duration = 1600;
+        const step = 16;
+        const increment = target / (duration / step);
+        const timer = setInterval(() => {
+          start += increment;
+          if (start >= target) { start = target; clearInterval(timer); }
+          numEl.textContent = el.dataset.prefix || "";
+          numEl.textContent += formatKpi(Math.floor(start));
+          if (el.dataset.suffix) numEl.textContent += el.dataset.suffix;
+        }, step);
+      });
+    }, { threshold: 0.4 });
+    kpiItems.forEach((el) => observer.observe(el));
+  }
+
+  // Scroll-reveal: add .revealed class when elements enter viewport
+  const revealEls = document.querySelectorAll(".reveal");
+  if (revealEls.length) {
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach((el) => revealObserver.observe(el));
+  }
 });

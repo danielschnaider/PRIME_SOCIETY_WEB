@@ -3,37 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kairos | PRIME Society</title>
+<title>Kairos — Civic Operating System | PRIME Society</title>
+<meta name="description" content="Kairos is PRIME Society's flagship platform — a modular civic OS coordinating time, goods, capital, opportunities, trust and governance across 40 apps.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PRIME Society">
+<meta property="og:title" content="Kairos — Civic Operating System | PRIME Society">
+<meta property="og:description" content="Kairos is PRIME Society's flagship platform — a modular civic OS coordinating time, goods, capital, opportunities, trust and governance across 40 apps.">
+<meta property="og:image" content="https://primesocietyweb.luby.digital/assets/img/unsplash/app-volunteer.jpg">
+<meta property="og:url" content="https://primesocietyweb.luby.digital/kairos.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kairos — Civic Operating System | PRIME Society">
+<meta name="twitter:description" content="Kairos is PRIME Society's flagship platform — a modular civic OS coordinating time, goods, capital, opportunities, trust and governance across 40 apps.">
+<meta name="twitter:image" content="https://primesocietyweb.luby.digital/assets/img/unsplash/app-volunteer.jpg">
 <link rel="alternate" hreflang="en" href="kairos.html">
 <link rel="alternate" hreflang="es" href="kairos.html">
 <link rel="alternate" hreflang="pt-BR" href="kairos.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="icon" type="image/png" href="assets/img/783436_e0840c5efa1346c2b84a14de553a4325-mv2.png">
-<meta name="description" content="The right moment, the right decision. Kairos is the PRIME framework for time-critical governance and strategic foresight.">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="PRIME Society">
-<meta property="og:title" content="Kairos | PRIME Society">
-<meta property="og:description" content="The right moment, the right decision. Kairos is the PRIME framework for time-critical governance and strategic foresight.">
-<meta property="og:image" content="https://primesocietyweb.luby.digital/assets/img/2ba95a_c5d9d8d8c8b4436da2326999a346d7dd-mv2.jpeg">
-<meta property="og:url" content="https://primesocietyweb.luby.digital/kairos.html">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kairos | PRIME Society">
-<meta name="twitter:description" content="The right moment, the right decision. Kairos is the PRIME framework for time-critical governance and strategic foresight.">
-<meta name="twitter:image" content="https://primesocietyweb.luby.digital/assets/img/2ba95a_c5d9d8d8c8b4436da2326999a346d7dd-mv2.jpeg">
 </head>
 <body>
-<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#main-content" class="skip-link" data-i18n="a11y.skip_link">Skip to main content</a>
 
+<!-- ─── Header ─── -->
 <header class="site-header">
   <div class="container">
     <a class="brand" href="index.html">
       <img src="assets/img/783436_e0840c5efa1346c2b84a14de553a4325-mv2.png" alt="PRIME Society">
     </a>
-    <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
-    <nav class="nav">
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="main-nav">
       <a href="about.html" data-i18n="nav.about">About</a>
       <a href="intro.html" data-i18n="nav.intro">Intro</a>
       <a href="index.html#prime-tools" data-i18n="nav.tools">PRIME Tools</a>
@@ -42,43 +45,345 @@
       <a href="engage.html" data-i18n="nav.engage">Engage</a>
       <a href="contact.html" data-i18n="nav.contact">Contact</a>
       <a href="donate.html" class="nav-cta" data-i18n="nav.donate">Donate</a>
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="pt">PT</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+      </div>
     </nav>
   </div>
 </header>
 
-<section class="page-intro" id="main-content">
+<!-- ─── Kairos Hero (dark, full-bleed) ─── -->
+<section class="page-intro" id="main-content" style="padding:6rem 0 4rem;min-height:60vh;display:flex;align-items:center;" aria-labelledby="kairos-h1">
+  <div class="container" style="max-width:900px;text-align:center;position:relative;z-index:1;">
+    <div class="hero-pill" style="margin-bottom:1.5rem;">
+      <span class="hero-pill-dot"></span>
+      <span data-i18n="kairos.eyebrow">PRIME Tools · Flagship Platform</span>
+    </div>
+    <h1 id="kairos-h1" style="color:#fff;font-size:clamp(2.6rem,6vw,4.2rem);font-weight:800;letter-spacing:-0.03em;line-height:1.08;margin-bottom:1.25rem;" data-i18n="kairos.title">Kairos</h1>
+    <p style="color:rgba(255,255,255,0.7);font-size:clamp(1.05rem,2vw,1.3rem);max-width:680px;margin:0 auto 2.5rem;line-height:1.65;" data-i18n="kairos.subtitle">The civic operating system that coordinates time, goods, capital, opportunities, trust and governance — powering 40 apps for a poverty-free world.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-teal btn-lg" data-i18n="kairos.cta">Talk to us about Kairos</a>
+      <a href="#flagship-apps" class="btn btn-outline btn-lg" data-i18n="kairos.cta_apps">See Flagship Apps</a>
+    </div>
+    <!-- KPI row inside hero -->
+    <div style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid rgba(255,255,255,0.1);">
+      <div style="text-align:center;">
+        <div style="font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:-0.03em;" data-kpi="12450" class="kpi-num">12,450</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);font-weight:500;margin-top:.2rem;" data-i18n="kpi.members">Community Members</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:-0.03em;" data-kpi="142300" data-suffix="kg" class="kpi-num">142,300kg</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);font-weight:500;margin-top:.2rem;" data-i18n="kpi.food">Food Rescued</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.9rem;font-weight:800;color:#2dd4bf;letter-spacing:-0.03em;">84.7</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);font-weight:500;margin-top:.2rem;" data-i18n="kpi.trust">Trust Score</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:-0.03em;" data-kpi="92300" class="kpi-num">92,300</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);font-weight:500;margin-top:.2rem;" data-i18n="kpi.interactions">Civic Interactions</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── What Kairos Enables ─── -->
+<section class="section" aria-labelledby="enables-heading">
   <div class="container">
-    <span class="eyebrow" data-i18n="kairos.eyebrow">PRIME Tools</span>
-    <h1 data-i18n="kairos.title">Kairos</h1>
-    <p data-i18n="kairos.subtitle">The right moment, the right decision. Kairos is the PRIME framework for time-critical governance and strategic foresight.</p>
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="kairos.eyebrow">PRIME Tools</span>
+      <h2 id="enables-heading" data-i18n="kairos.enables_title">What Kairos Enables</h2>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p data-i18n-html="kairos.p1"><em>Kairos</em> — from the Ancient Greek for the opportune, decisive moment — is the PRIME Society tool that helps leaders, communities and organizations identify when, where and how to act.</p>
+        <ul style="list-style:none;margin-top:1.5rem;">
+          <li style="display:flex;align-items:flex-start;gap:.85rem;padding:.65rem 0;border-bottom:1px solid var(--border);">
+            <span class="feat-icon teal" style="margin-top:.1rem;">🎯</span>
+            <span data-i18n="kairos.e1">Early identification of governance windows of opportunity.</span>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:.85rem;padding:.65rem 0;border-bottom:1px solid var(--border);">
+            <span class="feat-icon emerald" style="margin-top:.1rem;">📊</span>
+            <span data-i18n="kairos.e2">Evidence-driven prioritization across competing initiatives.</span>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:.85rem;padding:.65rem 0;border-bottom:1px solid var(--border);">
+            <span class="feat-icon amber" style="margin-top:.1rem;">⚡</span>
+            <span data-i18n="kairos.e3">Faster, more confident decisions in complex, high-stakes environments.</span>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:.85rem;padding:.65rem 0;">
+            <span class="feat-icon sky" style="margin-top:.1rem;">🗣</span>
+            <span data-i18n="kairos.e4">A common vocabulary for purpose, results and measurement across teams.</span>
+          </li>
+        </ul>
+        <div style="margin-top:2rem;">
+          <a href="contact.html" class="btn btn-primary" data-i18n="kairos.cta">Talk to us about Kairos</a>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div style="background:var(--night);border-radius:var(--radius-xl);padding:2.5rem;border:1px solid rgba(255,255,255,0.08);">
+          <div class="coord-center" style="margin-bottom:1.5rem;">
+            <div class="coord-core">
+              <span style="font-size:1.6rem;">⚡</span>
+              <span class="coord-core-label">KAIROS</span>
+            </div>
+          </div>
+          <div class="coord-grid">
+            <div class="coord-card c-teal">
+              <div class="coord-icon">⏱</div>
+              <div class="coord-label" data-i18n="coord.time">Time</div>
+              <div class="coord-sub" data-i18n="coord.time_sub">Volunteer hours</div>
+            </div>
+            <div class="coord-card c-emerald">
+              <div class="coord-icon">📦</div>
+              <div class="coord-label" data-i18n="coord.goods">Goods</div>
+              <div class="coord-sub" data-i18n="coord.goods_sub">Food &amp; supplies</div>
+            </div>
+            <div class="coord-card c-amber">
+              <div class="coord-icon">💰</div>
+              <div class="coord-label" data-i18n="coord.capital">Capital</div>
+              <div class="coord-sub" data-i18n="coord.capital_sub">Grants &amp; funds</div>
+            </div>
+            <div class="coord-card c-sky">
+              <div class="coord-icon">🚀</div>
+              <div class="coord-label" data-i18n="coord.opportunities">Opportunities</div>
+              <div class="coord-sub" data-i18n="coord.opps_sub">Jobs &amp; mentorship</div>
+            </div>
+            <div class="coord-card c-purple">
+              <div class="coord-icon">🛡</div>
+              <div class="coord-label" data-i18n="coord.trust">Trust</div>
+              <div class="coord-sub" data-i18n="coord.trust_sub">Reputation &amp; audit</div>
+            </div>
+            <div class="coord-card c-rose">
+              <div class="coord-icon">🏛</div>
+              <div class="coord-label" data-i18n="coord.governance">Governance</div>
+              <div class="coord-sub" data-i18n="coord.gov_sub">Civic decisions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container prose">
-    <p data-i18n-html="kairos.p1"><em>Kairos</em> — from the Ancient Greek for the opportune, decisive moment…</p>
+<!-- ─── Flagship Apps ─── -->
+<section class="section section-alt" id="flagship-apps" aria-labelledby="flagship-heading">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="kairos.flagship_eyebrow">Flagship Apps</span>
+      <h2 id="flagship-heading" data-i18n="kairos.flagship_title">Three Apps. Proven Impact.</h2>
+      <p data-i18n="kairos.flagship_subtitle">The first three Kairos apps are live and generating real impact — from volunteer matching to food rescue to impact-based funding.</p>
+    </div>
 
-    <h2 data-i18n="kairos.enables_title">What Kairos enables</h2>
-    <ul>
-      <li data-i18n="kairos.e1">Early identification of governance windows of opportunity.</li>
-      <li data-i18n="kairos.e2">Evidence-driven prioritization across competing initiatives.</li>
-      <li data-i18n="kairos.e3">Faster, more confident decisions in complex, high-stakes environments.</li>
-      <li data-i18n="kairos.e4">A common vocabulary for purpose, results and measurement across teams.</li>
-    </ul>
+    <!-- App 1: Micro-Voluntarism -->
+    <div class="about-grid reveal" style="margin-bottom:4rem;gap:3rem;">
+      <div>
+        <span class="eyebrow" style="color:var(--teal);">01</span>
+        <h3 style="font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-top:.5rem;margin-bottom:1rem;" data-i18n="kairos.app1_title">Micro-Voluntarism</h3>
+        <p data-i18n="kairos.app1_desc">A micro-task platform that matches skilled volunteers to urgent civic needs in minutes. From translation to legal support, from design to data analysis — every hour of time donated is verified, tracked and counted as impact.</p>
+        <ul style="list-style:none;margin-top:1.25rem;">
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--teal);font-weight:700;">→</span>
+            <span data-i18n="kairos.app1_b1">7,840 active volunteers globally</span>
+          </li>
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--teal);font-weight:700;">→</span>
+            <span data-i18n="kairos.app1_b2">92,300 tasks completed</span>
+          </li>
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--teal);font-weight:700;">→</span>
+            <span data-i18n="kairos.app1_b3">386 partner organizations</span>
+          </li>
+        </ul>
+        <div style="margin-top:1.5rem;">
+          <span class="app-badge badge-pilot" data-i18n="app.badge_pilot">Pilot</span>
+        </div>
+      </div>
+      <img src="assets/img/unsplash/app-volunteer.jpg" alt="Volunteers collaborating on civic tasks" loading="lazy" style="border-radius:var(--radius-xl);height:380px;object-fit:cover;">
+    </div>
 
-    <h2 data-i18n="kairos.how_title">How it works</h2>
-    <p data-i18n="kairos.how_p">Kairos sits on top of the broader PRIME Framework…</p>
+    <!-- App 2: Food Rescue -->
+    <div class="about-grid reveal" style="margin-bottom:4rem;gap:3rem;direction:rtl;">
+      <div style="direction:ltr;">
+        <span class="eyebrow" style="color:var(--emerald);">02</span>
+        <h3 style="font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-top:.5rem;margin-bottom:1rem;" data-i18n="kairos.app2_title">Food Rescue</h3>
+        <p data-i18n="kairos.app2_desc">An AI-coordinated redistribution network that connects surplus food from businesses to NGOs, shelters and families in need — with real-time logistics, cold-chain tracking and verified delivery confirmations.</p>
+        <ul style="list-style:none;margin-top:1.25rem;">
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--emerald);font-weight:700;">→</span>
+            <span data-i18n="kairos.app2_b1">142,300 kg rescued</span>
+          </li>
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--emerald);font-weight:700;">→</span>
+            <span data-i18n="kairos.app2_b2">~284,600 meal equivalents</span>
+          </li>
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--emerald);font-weight:700;">→</span>
+            <span data-i18n="kairos.app2_b3">85% fulfillment rate</span>
+          </li>
+        </ul>
+        <div style="margin-top:1.5rem;">
+          <span class="app-badge badge-pilot" data-i18n="app.badge_pilot">Pilot</span>
+        </div>
+      </div>
+      <img src="assets/img/unsplash/app-food.jpg" alt="Food rescue operation in action" loading="lazy" style="border-radius:var(--radius-xl);height:380px;object-fit:cover;direction:ltr;">
+    </div>
 
-    <p style="margin-top:2rem;"><a href="contact.html" class="btn btn-primary" data-i18n="kairos.cta">Talk to us about Kairos</a></p>
+    <!-- App 3: Impact Funding -->
+    <div class="about-grid reveal" style="gap:3rem;">
+      <div>
+        <span class="eyebrow" style="color:var(--amber);">03</span>
+        <h3 style="font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-top:.5rem;margin-bottom:1rem;" data-i18n="kairos.app3_title">Impact Funding</h3>
+        <p data-i18n="kairos.app3_desc">Outcome-based grant management with milestone verification, trust scoring and real-time disbursement. Funders see exactly where their money goes and track impact down to the individual beneficiary.</p>
+        <ul style="list-style:none;margin-top:1.25rem;">
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--amber);font-weight:700;">→</span>
+            <span data-i18n="kairos.app3_b1">$4.8M in pledged funding</span>
+          </li>
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--amber);font-weight:700;">→</span>
+            <span data-i18n="kairos.app3_b2">38 funded projects</span>
+          </li>
+          <li style="display:flex;align-items:center;gap:.65rem;padding:.45rem 0;color:var(--text);font-size:.92rem;">
+            <span style="color:var(--amber);font-weight:700;">→</span>
+            <span data-i18n="kairos.app3_b3">94% trust score on verified events</span>
+          </li>
+        </ul>
+        <div style="margin-top:1.5rem;">
+          <span class="app-badge badge-pilot" data-i18n="app.badge_pilot">Pilot</span>
+        </div>
+      </div>
+      <img src="assets/img/unsplash/app-health.jpg" alt="Impact funding in action" loading="lazy" style="border-radius:var(--radius-xl);height:380px;object-fit:cover;">
+    </div>
   </div>
 </section>
 
+<!-- ─── Hestia AI (Dark) ─── -->
+<section class="section-dark kairos-feature" aria-labelledby="hestia-heading">
+  <div class="container">
+    <div class="kairos-grid">
+      <div class="kairos-text reveal">
+        <span class="eyebrow-light" data-i18n="kairos.hestia_eyebrow">Hestia AI</span>
+        <h2 id="hestia-heading" data-i18n="kairos.hestia_title">Intelligent Automation with Human Oversight</h2>
+        <p data-i18n="kairos.hestia_p1">Hestia is the AI orchestration layer inside Kairos — automating routine coordination while keeping humans firmly in control of every consequential decision.</p>
+        <p data-i18n="kairos.hestia_p2">It monitors platform data, suggests actions, executes safe automations and alerts coordinators when human judgment is needed. Every agent action is logged, auditable and reversible.</p>
+        <ul class="kairos-features">
+          <li>
+            <span class="feat-icon teal">🤖</span>
+            <span data-i18n="kairos.hestia_f1">Automated task routing and volunteer matching</span>
+          </li>
+          <li>
+            <span class="feat-icon emerald">🔔</span>
+            <span data-i18n="kairos.hestia_f2">Proactive alerts for urgent needs and expiring offers</span>
+          </li>
+          <li>
+            <span class="feat-icon amber">📋</span>
+            <span data-i18n="kairos.hestia_f3">Evidence collection and milestone verification</span>
+          </li>
+          <li>
+            <span class="feat-icon sky">🔒</span>
+            <span data-i18n="kairos.hestia_f4">Full audit trail — every action logged and auditable</span>
+          </li>
+        </ul>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <!-- Hestia AI card mockup -->
+        <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:1.75rem;">
+          <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem;">
+            <div style="width:40px;height:40px;background:linear-gradient(135deg,var(--teal),var(--emerald));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;">🛡</div>
+            <div>
+              <div style="color:#fff;font-weight:700;font-size:.95rem;" data-i18n="kairos.hestia_agent_name">Hestia AI</div>
+              <div style="color:rgba(255,255,255,0.4);font-size:.72rem;" data-i18n="kairos.hestia_agent_sub">Intelligence Layer · Active</div>
+            </div>
+            <span style="margin-left:auto;display:flex;align-items:center;gap:.35rem;font-size:.72rem;color:#34d399;font-weight:600;">
+              <span class="hero-pill-dot"></span>
+              <span data-i18n="kairos.hestia_status">Online</span>
+            </span>
+          </div>
+          <!-- Mock cards -->
+          <div style="background:rgba(13,148,136,0.12);border:1px solid rgba(13,148,136,0.25);border-radius:12px;padding:1rem;margin-bottom:.75rem;">
+            <div style="color:rgba(255,255,255,0.55);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem;" data-i18n="kairos.hestia_card1_label">Active Agents</div>
+            <div style="color:#fff;font-size:1.5rem;font-weight:800;">12</div>
+            <div style="color:#34d399;font-size:.72rem;font-weight:600;margin-top:.25rem;" data-i18n="kairos.hestia_card1_sub">↑ 3 new this week</div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;">
+            <div style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);border-radius:12px;padding:.85rem;">
+              <div style="color:rgba(255,255,255,0.5);font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.35rem;" data-i18n="kairos.hestia_card2_label">Auto-executed</div>
+              <div style="color:#fff;font-size:1.2rem;font-weight:800;">4,218</div>
+            </div>
+            <div style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.2);border-radius:12px;padding:.85rem;">
+              <div style="color:rgba(255,255,255,0.5);font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.35rem;" data-i18n="kairos.hestia_card3_label">Avg Confidence</div>
+              <div style="color:#fff;font-size:1.2rem;font-weight:800;">91.3%</div>
+            </div>
+          </div>
+          <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1rem;margin-top:.75rem;">
+            <div style="color:rgba(255,255,255,0.4);font-size:.7rem;font-weight:600;margin-bottom:.5rem;" data-i18n="kairos.hestia_recent">Recent Actions</div>
+            <div style="color:rgba(255,255,255,0.7);font-size:.78rem;line-height:1.6;">
+              <div style="padding:.3rem 0;border-bottom:1px solid rgba(255,255,255,0.06);">🤝 Matched 3 volunteers → NGO São Paulo</div>
+              <div style="padding:.3rem 0;border-bottom:1px solid rgba(255,255,255,0.06);">🌿 Food offer claimed → shelter confirmed</div>
+              <div style="padding:.3rem 0;">🛡 Trust event verified → milestone logged</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── How It Works ─── -->
+<section class="section" aria-labelledby="how-heading">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="kairos.how_eyebrow">How It Works</span>
+      <h2 id="how-heading" data-i18n="kairos.how_title">How Kairos Works</h2>
+      <p data-i18n="kairos.how_p">Kairos sits on top of the broader PRIME Framework. It combines the PRIME principles — Purpose, Results, Innovation, Measurement, Empirical — with practical playbooks for sensemaking, scenario design and rapid execution.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;" class="reveal">
+      <div style="background:var(--bg-alt);border-radius:var(--radius-xl);padding:1.75rem;text-align:center;border:1px solid var(--border);">
+        <div style="font-size:2rem;margin-bottom:.75rem;">🎯</div>
+        <h4 style="color:var(--ink);margin-bottom:.5rem;" data-i18n="kairos.how1_title">Define Purpose</h4>
+        <p style="font-size:.88rem;color:var(--text-muted);margin:0;" data-i18n="kairos.how1_desc">Every app starts with a clear civic problem and a measurable success metric.</p>
+      </div>
+      <div style="background:var(--bg-alt);border-radius:var(--radius-xl);padding:1.75rem;text-align:center;border:1px solid var(--border);">
+        <div style="font-size:2rem;margin-bottom:.75rem;">⚙️</div>
+        <h4 style="color:var(--ink);margin-bottom:.5rem;" data-i18n="kairos.how2_title">Coordinate Resources</h4>
+        <p style="font-size:.88rem;color:var(--text-muted);margin:0;" data-i18n="kairos.how2_desc">Kairos routes time, goods, capital and skills to where they're needed most.</p>
+      </div>
+      <div style="background:var(--bg-alt);border-radius:var(--radius-xl);padding:1.75rem;text-align:center;border:1px solid var(--border);">
+        <div style="font-size:2rem;margin-bottom:.75rem;">🛡</div>
+        <h4 style="color:var(--ink);margin-bottom:.5rem;" data-i18n="kairos.how3_title">Verify Impact</h4>
+        <p style="font-size:.88rem;color:var(--text-muted);margin:0;" data-i18n="kairos.how3_desc">Every action generates a trust signal — verified by multiple parties and logged immutably.</p>
+      </div>
+      <div style="background:var(--bg-alt);border-radius:var(--radius-xl);padding:1.75rem;text-align:center;border:1px solid var(--border);">
+        <div style="font-size:2rem;margin-bottom:.75rem;">📈</div>
+        <h4 style="color:var(--ink);margin-bottom:.5rem;" data-i18n="kairos.how4_title">Improve Continuously</h4>
+        <p style="font-size:.88rem;color:var(--text-muted);margin:0;" data-i18n="kairos.how4_desc">Hestia AI learns from outcomes and improves matching, routing and decision logic over time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA ─── -->
+<section class="cta-section" aria-labelledby="kairos-cta-heading">
+  <div class="container">
+    <span class="eyebrow-light" style="color:rgba(255,255,255,0.7);" data-i18n="kairos.cta_eyebrow">Get Involved</span>
+    <h2 id="kairos-cta-heading" data-i18n="kairos.cta_title">Ready to build on Kairos?</h2>
+    <p data-i18n="kairos.cta_subtitle">Whether you're an NGO, government, funder or technologist — there's a role for you in the Kairos ecosystem. Let's coordinate.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-lg" style="background:#fff;color:var(--teal);font-weight:700;" data-i18n="kairos.cta_contact">Contact Us</a>
+      <a href="donate.html" class="btn btn-lg btn-outline" data-i18n="kairos.cta_donate">Support Kairos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Footer ─── -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div>
         <div class="brand"><img src="assets/img/2ba95a_a7b729c43ae545a69076a2e3129ac46a-mv2.png" alt="PRIME Society" loading="lazy"></div>
-        <p style="color:rgba(255,255,255,0.65);font-size:.95rem;" data-i18n="footer.tagline">Innovation for a Poverty-Free Future.</p>
+        <p data-i18n="footer.tagline">Innovation for a Poverty-Free Future.</p>
         <div class="socials" style="margin-top:1rem;">
           <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.3 2.2.4.5.2 1 .5 1.4 1 .4.4.7.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.8-.4 2.2-.2.5-.5 1-1 1.4-.4.4-.9.7-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.3-2.2-.4-.5-.2-1-.5-1.4-1-.4-.4-.7-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-1.8.4-2.2.2-.5.5-1 1-1.4.4-.4.9-.7 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 2.2c-3.1 0-3.5 0-4.7.1-1 .1-1.5.2-1.9.3-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.4-.3.9-.3 1.9-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.5.3 1.9.2.5.4.8.7 1.1.3.3.6.5 1.1.7.4.1.9.3 1.9.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.5-.2 1.9-.3.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.4.3-.9.3-1.9.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.5-.3-1.9-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.4-.1-.9-.3-1.9-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.7a3.9 3.9 0 1 1 0 7.8 3.9 3.9 0 0 1 0-7.8zm0 6.4a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm5-6.6a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0z"/></svg></a>
           <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M13.5 21.5v-8.6h2.9l.4-3.4h-3.3V7.4c0-1 .3-1.7 1.7-1.7h1.8V2.7c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.5H7.1v3.4H10v8.6h3.5z"/></svg></a>
@@ -111,7 +416,13 @@
         </ul>
       </div>
     </div>
-    <div class="copyright">© <span id="year"></span> <span data-i18n="footer.copyright">PRIME Society. Innovation for a Poverty-Free Future.</span></div>
+    <div class="copyright">
+      <span>© <span id="year"></span> <span data-i18n="footer.copyright">PRIME Society. Innovation for a Poverty-Free Future.</span></span>
+      <div class="footer-live">
+        <span class="footer-live-dot"></span>
+        <span data-i18n="footer.live">Live on Kairos</span>
+      </div>
+    </div>
   </div>
 </footer>
 
