@@ -1,0 +1,541 @@
+{
+  "nav": {
+    "kairos": "Kairós",
+    "work": "Nuestro trabajo",
+    "initiatives": "Iniciativas",
+    "publications": "Publicaciones",
+    "vision": "Visión y Modelo",
+    "contact": "Contacto",
+    "menu": "Menú"
+  },
+  "cta": {
+    "get_involved": "Participa",
+    "get_involved_arrow": "Participa →",
+    "explore_kairos": "Explorar Kairós",
+    "explore_kairos_arrow": "Explorar Kairós →",
+    "read_publications": "Leer las publicaciones",
+    "read_publications_arrow": "Leer las publicaciones →",
+    "explore_prime_model": "Explorar el Modelo PRIME →",
+    "join_federation": "Únete a la federación →",
+    "subscribe": "Suscribirse",
+    "subscribe_arrow": "Suscribirse →"
+  },
+  "lang": {
+    "en": "English",
+    "pt": "Português",
+    "es": "Español",
+    "switcher_aria": "Elegir idioma"
+  },
+  "footer": {
+    "tagline": "Innovación para un Futuro Sin Pobreza.",
+    "explore": "Explorar",
+    "engage": "Participar",
+    "connect": "Conectar",
+    "donate": "Donar",
+    "partner": "Asociarse",
+    "volunteer": "Ser voluntario",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "newsletter": "Newsletter",
+    "copyright": "© 2026 PRIME Society — Innovación para un Futuro Sin Pobreza.",
+    "established": "Fundada en 2024"
+  },
+  "home": {
+    "page_title": "PRIME Society — Innovación para un Futuro Sin Pobreza",
+    "hero": {
+      "eyebrow": "Una federación sin fines de lucro · Fundada en 2024",
+      "headline_html": "Acabar con la pobreza es un problema de <em>coordinación</em> que sí podemos resolver.",
+      "lead": "Toda comunidad tiene personas que necesitan ayuda — y personas, recursos e instituciones capaces de ayudar. PRIME Society utiliza Kairós para conectarlos con propósito, transparencia y resultados medibles."
+    },
+    "problem": {
+      "eyebrow": "El problema",
+      "title": "La mayoría de los esfuerzos contra la pobreza fallan en el mismo lugar.",
+      "lead": "La pobreza no persiste solo porque a las sociedades les falten compasión, dinero, ideas o instituciones. Persiste porque necesidades, recursos, personas, datos y acción suelen estar desconectados. PRIME Society existe para cerrar esa brecha — transformando la buena voluntad dispersa en sistemas coordinados y medibles capaces de identificar lo que se necesita, movilizar lo que está disponible y verificar lo que realmente funciona.",
+      "p1_title": "Las necesidades son invisibles o están mal comprendidas",
+      "p1_text": "Muchas personas y comunidades necesitan ayuda, pero sus necesidades están fragmentadas, desactualizadas, sin documentar u ocultas entre instituciones. Sin una visión clara de quién necesita qué, dónde y por qué, incluso los programas bien intencionados no llegan a quienes deberían atender.",
+      "p2_title": "Los recursos existen, pero están desconectados",
+      "p2_text": "Alimentos, financiación, voluntarios, servicios, conocimiento, infraestructura y capacidad institucional muchas veces existen — pero residen en sistemas y redes separados. El problema no es solo la escasez; es la ausencia de un mecanismo confiable para conectar recursos disponibles con necesidades reales.",
+      "p3_title": "La acción no se mide ni se coordina",
+      "p3_text": "Incluso cuando la ayuda llega, el impacto suele ser difícil de verificar, comparar, mejorar o escalar. Sin estándares compartidos, ciclos de retroalimentación y medición transparente, las sociedades repiten intervenciones aisladas en lugar de construir inteligencia acumulada sobre lo que realmente funciona."
+    },
+    "kairos": {
+      "eyebrow": "El motor principal",
+      "title": "Conoce Kairós — donde la visión se convierte en acción.",
+      "flow_identify": "Identificar",
+      "flow_match": "Conectar",
+      "flow_coordinate": "Coordinar",
+      "flow_measure": "Medir",
+      "flow_scale": "Escalar",
+      "lead": "Kairós es el motor de coordinación de PRIME Society. Conecta necesidades, recursos, personas, organizaciones y datos en flujos prácticos de acción — ayudando a las comunidades a equilibrar demanda y oferta, coordinar la ejecución, verificar resultados y mejorar de forma continua.",
+      "see_possible": "Mira lo que se vuelve posible",
+      "lab_need": "Necesidad",
+      "lab_match": "Kairós conecta",
+      "lab_outcome": "Resultado",
+      "ex1_need": "Una familia necesita apoyo alimentario esta semana.",
+      "ex1_match": "Donantes de alimentos, organizaciones locales, voluntarios, capacidad de entrega.",
+      "ex1_out": "Alimentos entregados, acción verificada e insights comunitarios sobre necesidades recurrentes.",
+      "ex2_need": "Un joven necesita un camino del desempleo al ingreso.",
+      "ex2_match": "Programas de capacitación, mentores, empleadores, transporte, seguimiento.",
+      "ex2_out": "Un camino práctico hacia el ingreso, rastreado desde la formación hasta el empleo.",
+      "ex3_need": "Un barrio enfrenta espacios inseguros, servicios débiles y ninguna actividad para jóvenes.",
+      "ex3_match": "Vecinos, agencias municipales, ONG, patrocinadores, voluntarios, datos, proyectos.",
+      "ex3_out": "De quejas aisladas a una mejora coordinada y medible."
+    },
+    "cap": {
+      "eyebrow": "Lo que Kairós puede hacer",
+      "title": "Cuatro capacidades. Un motor.",
+      "c1_h": "Identificar necesidades reales",
+      "c1_p": "Mapear lo que personas, familias, organizaciones y comunidades realmente necesitan — con contexto, urgencia, ubicación y elegibilidad.",
+      "c2_h": "Conectar recursos con inteligencia",
+      "c2_p": "Vincular necesidades con los donantes, voluntarios, servicios, instituciones, proveedores, programas y fuentes de financiación adecuados.",
+      "c3_h": "Coordinar la ejecución",
+      "c3_p": "Convertir la intención en acción organizando flujos de trabajo, responsabilidades, logística, comunicación y seguimiento.",
+      "c4_h": "Medir lo que funciona",
+      "c4_p": "Verificar entregas, dar seguimiento a resultados, comparar intervenciones y ayudar a las comunidades a mejorar con base en evidencia."
+    },
+    "built": {
+      "eyebrow": "Nuestro trabajo · dos años después",
+      "title": "Lo que hemos construido hasta ahora.",
+      "lead": "Somos una federación sin fines de lucro en fase de I+D. A continuación, la infraestructura que estamos desarrollando para hacer posible una acción coordinada contra la pobreza a escala comunitaria, urbana y federativa.",
+      "r1_t": "El Modelo y el Estándar PRIME",
+      "r1_d": "Los principios, el marco y el estándar abierto que definen cómo operan las PRIME Societies.",
+      "r2_t": "Libro — PRIME Society",
+      "r2_d": "La obra fundacional que articula la visión, el modelo y el camino hacia un futuro sin pobreza.",
+      "r3_t": "Libro — Mobility 5.0",
+      "r3_d_html": "Una obra publicada sobre el futuro de la movilidad dentro del marco PRIME. <span style=\"color:var(--green-deep);font-weight:600\">Disponible en Amazon →</span>",
+      "r4_t": "Kairós — la plataforma de coordinación",
+      "r4_d": "El motor principal que conecta necesidades, recursos, personas y resultados. Motor central y aplicaciones principales en desarrollo activo.",
+      "r5_t": "CivitasNews y Publicaciones",
+      "r5_d": "Artículos, entrevistas, ensayos y marcos sobre innovación, gobernanza y el camino más allá de la pobreza.",
+      "r6_t": "Alianzas",
+      "r6_d": "Entre los socios fundadores están FIAP e Internexum — colaborando en investigación, tecnología y construcción de la federación.",
+      "r7_t": "Reuniones gubernamentales",
+      "r7_d": "Diálogos en curso con la Municipalidad y el Estado para explorar pilotos de ZAPE.",
+      "pill_active_dev": "Desarrollo activo",
+      "pill_in_dev": "En desarrollo",
+      "pill_live": "En vivo",
+      "pill_active": "Activo",
+      "report_link": "Leer el informe completo de progreso →"
+    },
+    "domains": {
+      "eyebrow": "Iniciativas en diseño",
+      "title": "Una plataforma, diez dominios de misión.",
+      "lead": "Las iniciativas de PRIME se organizan en diez dominios de misión interconectados. Cada uno es una respuesta coordinada a una dimensión específica de la pobreza — y, juntos, cubren todo el territorio.",
+      "d1_h": "Alimentación",
+      "d1_p": "Conectar excedentes, donaciones, proveedores, logística y familias para reducir el hambre y el desperdicio de alimentos.",
+      "d2_h": "Vivienda",
+      "d2_p": "Coordinar refugio, reparaciones, vivienda temporal, servicios y apoyo local para personas en inseguridad habitacional.",
+      "d3_h": "Salud",
+      "d3_p": "Conectar a las personas con atención preventiva, rutas de tratamiento, medicamentos, apoyo en salud mental y servicios de salud comunitaria.",
+      "d4_h": "Educación",
+      "d4_p": "Conectar estudiantes, familias, escuelas, mentores, cursos, materiales y apoyo al aprendizaje para ampliar oportunidades.",
+      "d5_h": "Empleo",
+      "d5_p": "Construir caminos del desempleo o la informalidad hacia habilidades, trabajo, ingreso, emprendimiento y estabilidad financiera.",
+      "d6_h": "Medio ambiente",
+      "d6_p": "Coordinar acción local en torno a residuos, reciclaje, resiliencia climática, áreas verdes, agua e infraestructura sostenible.",
+      "d7_h": "Cívico",
+      "d7_p": "Movilizar a ciudadanos, voluntarios, comunidades, ONG y líderes locales en torno a misiones concretas de acción colectiva.",
+      "d8_h": "Gobernanza",
+      "d8_p": "Ayudar a las instituciones a coordinar políticas, programas, presupuestos, rendición de cuentas, estándares y resultados públicos medibles.",
+      "d9_h": "Datos",
+      "d9_p": "Crear la capa de evidencia: mapear necesidades, recursos, acciones, resultados, brechas, riesgos y lo que de verdad funciona.",
+      "d10_h": "Emergencia",
+      "d10_p": "Coordinar respuesta rápida en crisis que involucran alimentos, refugio, salud, seguridad, logística, donaciones y voluntarios."
+    },
+    "zape": {
+      "eyebrow": "El modelo territorial de despliegue",
+      "title": "ZAPE — Zona para la Erradicación Acelerada de la Pobreza",
+      "lead": "Un territorio definido donde PRIME Society coordina los diez dominios de misión a través de Kairós para reducir sistemáticamente — y, en última instancia, eliminar — la pobreza.",
+      "cta": "Conoce más sobre ZAPE →"
+    },
+    "why": {
+      "eyebrow": "Por qué existimos",
+      "title": "El pensamiento detrás del trabajo.",
+      "quote": "Los mayores desafíos de la humanidad son obra suya. Cuesta creer que las mismas estructuras de gobernanza que hicieron posibles estos problemas sean las que podamos confiar en que los resuelvan.",
+      "author_role": "Cofundador, PRIME Society"
+    },
+    "involved": {
+      "eyebrow": "Únete en el momento fundacional",
+      "title": "Encuentra tu rol en la federación.",
+      "lead": "PRIME Society está tomando forma. Ya sea con una hora, una habilidad, un recurso o una institución, hay un rol para ti en la construcción de soluciones coordinadas a la pobreza.",
+      "a1_h": "Donante",
+      "a1_p": "Financia la construcción de Kairós, el estándar abierto y los primeros pilotos de ZAPE.",
+      "a1_cta": "Financiar el trabajo →",
+      "a2_h": "Ciudadano",
+      "a2_p": "Lleva PRIME Society a tu comunidad y únete a la federación localmente.",
+      "a2_cta": "Unirse localmente →",
+      "a3_h": "Voluntario",
+      "a3_p": "Ofrece tu tiempo, habilidades o experiencia a un piloto, una publicación o la plataforma.",
+      "a3_cta": "Aportar tu tiempo →",
+      "a4_h": "Empresa",
+      "a4_p": "Colabora en impacto coordinado, patrocinio, apoyo en especie o codesarrollo.",
+      "a4_cta": "Ser socio de PRIME →",
+      "a5_h": "Ciudad / gobierno",
+      "a5_p": "Explora un piloto de ZAPE — una forma coordinada de reducir la pobreza en tu territorio.",
+      "a5_cta": "Explorar un piloto →",
+      "a6_h": "Investigador / académico",
+      "a6_p": "Colabora en el modelo PRIME, publicaciones, marcos e investigación en medición.",
+      "a6_cta": "Colaborar →",
+      "a7_h": "Constructor / desarrollador",
+      "a7_p": "Ayuda a construir las aplicaciones de Kairós y contribuye al estándar abierto.",
+      "a7_cta": "Ayudar a construir →"
+    },
+    "vision_teaser": {
+      "eyebrow": "Para la capa más profunda",
+      "title": "Descubre la visión más profunda detrás de PRIME Society.",
+      "p": "Una arquitectura práctica para comunidades, ciudades e instituciones, diseñada en torno al progreso medible — el modelo PRIME, los principios, los territorios ZAPE y la tesis de largo plazo para un futuro sin pobreza."
+    },
+    "news": {
+      "title": "Mantente cerca del trabajo.",
+      "p": "Recibe nuevas publicaciones de PRIME Society, actualizaciones de Kairós, historias de impacto y oportunidades para ayudar a construir soluciones coordinadas a la pobreza.",
+      "placeholder": "tu@ejemplo.com",
+      "thanks": "✓ Gracias — pronto tendrás noticias nuestras."
+    },
+    "join": {
+      "eyebrow": "Únete a la federación",
+      "title": "Cuéntanos cómo te gustaría contribuir.",
+      "lead": "Sea cual sea el rol que mejor te calce — nos pondremos en contacto con formas concretas de participar.",
+      "name_label": "Tu nombre",
+      "email_label": "Correo electrónico",
+      "interest_label": "Me gustaría contribuir como…",
+      "interest_placeholder": "Haz clic en uno de los roles o escribe el tuyo",
+      "chip_donor": "Donante",
+      "chip_citizen": "Ciudadano",
+      "chip_volunteer": "Voluntario",
+      "chip_company": "Empresa",
+      "chip_city": "Ciudad / gobierno",
+      "chip_researcher": "Investigador / académico",
+      "chip_builder": "Constructor / desarrollador",
+      "org_label": "Organización (opcional)",
+      "message_label": "¿Algo más? (opcional)",
+      "message_placeholder": "Cuéntanos un poco sobre lo que te gustaría hacer.",
+      "send": "Enviar",
+      "thanks": "✓ Gracias — te contactaremos sobre tu rol en la federación."
+    }
+  },
+  "kairos": {
+    "page_title": "Kairós — El Sistema Operativo del Impacto | PRIME Society",
+    "hero": {
+      "eyebrow": "El motor principal",
+      "headline_html": "Kairós — <em style=\"color:var(--terra-soft)\">donde las necesidades encuentran acción coordinada</em>.",
+      "lead": "Kairós es la infraestructura para una nueva generación de mercados de impacto social — donde necesidades, recursos, instituciones y acción se coordinan mediante inteligencia compartida y resultados verificados.",
+      "explore_platform": "Explorar la plataforma"
+    },
+    "what": {
+      "eyebrow": "Qué es Kairós",
+      "title": "Una base. Muchas aplicaciones de impacto.",
+      "p1_html": "La mayoría de las plataformas de impacto intentan ser un único marketplace. Kairós sigue un camino distinto: es la <strong>base</strong> sobre la cual corren muchas aplicaciones especializadas de impacto — compartiendo identidad, verificación, medición y confianza.",
+      "p2": "Esto significa rescate de alimentos, conexión de voluntarios, financiación de impacto, acceso a salud mental e integración de refugiados — todo coordinado en un solo motor, medido del mismo modo y auditable de punta a punta."
+    },
+    "prim": {
+      "eyebrow": "Las primitivas compartidas",
+      "title": "Un lenguaje para cada mercado.",
+      "lead": "Cada dominio — alimentación, salud, vivienda, educación, empleo, cívico — se expresa mediante las mismas primitivas subyacentes. Es lo que hace a Kairós interoperable, auditable y estandarizado a escala.",
+      "t1_h": "Tiempo",
+      "t1_p": "Horas de voluntariado y esfuerzo humano, estructurados en contribuciones cortas y verificables.",
+      "t2_h": "Bienes",
+      "t2_p": "Alimentos, suministros, equipos y recursos materiales — conectados con logística y entrega comprobable.",
+      "t3_h": "Capital",
+      "t3_p": "Subvenciones, patrocinios y financiación por resultados — desembolsados contra hitos verificados.",
+      "t4_h": "Oportunidades",
+      "t4_p": "Empleos, mentoría, formación y trayectorias — conectadas con personas capaces de aprovecharlas.",
+      "t5_h": "Confianza",
+      "t5_p": "Identidad, reputación, evidencia y registro de auditoría — la base de toda acción coordinada.",
+      "t6_h": "Gobernanza",
+      "t6_p": "Decisiones cívicas, rendición de cuentas, estándares y las reglas bajo las que operan los mercados."
+    },
+    "apps": {
+      "eyebrow": "Tres apps activas en el demo",
+      "title": "Las primeras aplicaciones corriendo en Kairós.",
+      "lead": "Tres aplicaciones principales demuestran el sistema operativo en acción — cada una convirtiendo las mismas primitivas compartidas en resultados medibles para una necesidad cívica específica.",
+      "a1_h": "Microvoluntariado",
+      "a1_p": "Tareas cortas de voluntariado que generan impacto comunitario medible y verificado — conectadas en minutos.",
+      "a1_l1": "Conexión por habilidades, no por bolsa de empleo",
+      "a1_l2": "Duración media de 8 minutos por tarea",
+      "a1_l3": "Resultado verificado, horas contadas como impacto",
+      "a2_h": "Rescate de Alimentos",
+      "a2_p": "Conecta el excedente de alimentos de empresas con albergues, comedores y familias — con logística de cadena fría y entrega verificada.",
+      "a2_l1": "Conexión en tiempo real entre excedente y necesidad",
+      "a2_l2": "Confirmaciones verificadas de retiro y entrega",
+      "a2_l3": "Medido en kilos y equivalentes de comida",
+      "a3_h": "Financiación de Impacto",
+      "a3_p": "Desembolso por hitos con resultados verificados por IA — los financiadores ven exactamente a dónde va su dinero.",
+      "a3_l1": "Donaciones basadas en resultados, no en costos",
+      "a3_l2": "Verificación de hito en cada desembolso",
+      "a3_l3": "Puntaje de confianza a nivel proyecto y organización"
+    },
+    "hestia": {
+      "eyebrow": "Hestia IA",
+      "title": "Coordinación inteligente, supervisión humana.",
+      "lead": "Hestia es la capa de IA dentro de Kairós. Aprende patrones de conexión, destaca necesidades urgentes, propone decisiones a los coordinadores y comprueba cada acción con evidencia auditable — mientras toda decisión consecuente sigue en manos humanas.",
+      "f1": "Enrutamiento automático de tareas y conexión de voluntarios",
+      "f2": "Alertas proactivas para necesidades urgentes y ofertas por vencer",
+      "f3": "Recolección de evidencias y verificación de hitos",
+      "f4": "Registro de auditoría completo — toda acción registrada y reversible",
+      "card_subtitle": "Capa de coordinación · Activa",
+      "card_active_routing": "Enrutamientos activos",
+      "card_active_routing_v": "12 flujos",
+      "card_avg_conf": "Confianza promedio",
+      "card_avg_conf_v": "91%",
+      "card_ev1": "🤝 3 voluntarios conectados → ONG en São Paulo",
+      "card_ev2": "🌿 Oferta de alimentos reservada → albergue confirmado",
+      "card_ev3": "🛡 Evento de confianza verificado → hito registrado"
+    },
+    "views": {
+      "eyebrow": "Dentro de la plataforma",
+      "title": "Cuatro vistas, un sistema operativo.",
+      "v1_h": "Centro de Mando",
+      "v1_p": "El hub principal — los coordinadores ven flujos activos, necesidades urgentes y el estado de cada acción conectada.",
+      "v2_h": "Hestia IA",
+      "v2_p": "La capa de inteligencia — destaca conexiones, propone decisiones, comprueba resultados y aprende de forma continua.",
+      "v3_h": "Panel de Impacto",
+      "v3_p": "Métricas en tiempo real — por app, por dominio, por ciudad. Desde el conteo de tareas hasta las entregas verificadas y los puntajes de confianza.",
+      "v4_h": "Confianza y Auditoría",
+      "v4_p": "La interfaz de verificación — cada acción lleva evidencia, cada evento es auditable, cada resultado es comprobable."
+    },
+    "philosophy": {
+      "eyebrow": "La filosofía que rige",
+      "title": "Abierto en el borde. Estandarizado en el centro. Certificado para la confianza pública.",
+      "p1_html": "Kairós se construye sobre un principio deliberado: <strong style=\"color:var(--ink)\">baja barrera para imaginar, alta disciplina para activar</strong>. Cualquiera puede proponer un nuevo mercado. Las organizaciones verificadas pueden probar en sandbox y pilotar. Solo los mercados que pasan la revisión de Kairós se vuelven parte de la infraestructura pública e interoperable — protegiendo la confianza, la calidad y los resultados para quienes usan la plataforma.",
+      "p2": "¿Por qué? Porque Kairós no es una red de contenido — es una red de coordinación. Cuando la coordinación falla, hay personas reales, dinero real e instituciones reales afectadas."
+    },
+    "cta_section": {
+      "eyebrow": "Construye con nosotros",
+      "title": "Ayuda a llevar Kairós a tu comunidad.",
+      "p": "ONG, gobiernos, financiadores, constructores, investigadores — hay un rol para cada quien en la construcción del sistema operativo del impacto."
+    }
+  },
+  "vision": {
+    "page_title": "Visión y Modelo — PRIME Society",
+    "hero": {
+      "eyebrow": "La capa más profunda",
+      "headline_html": "Visión y <em>Modelo</em>.",
+      "lead": "Para quienes quieren la arquitectura intelectual completa detrás de PRIME Society — los principios, la tesis de gobernanza, el modelo territorial y el camino de largo plazo hacia un futuro sin pobreza."
+    },
+    "quote": {
+      "text": "Los mayores desafíos de la humanidad son obra suya. Cuesta creer que las mismas estructuras de gobernanza que hicieron posibles estos problemas sean las que podamos confiar en que los resuelvan.",
+      "author_role": "Cofundador, PRIME Society"
+    },
+    "why": {
+      "eyebrow": "Por qué un nuevo modelo",
+      "title": "Los mecanismos que trajeron estabilidad ya no alcanzan a la realidad.",
+      "p1": "El mundo ha entrado en una era de complejidad sin precedentes. Desde las crisis ambientales hasta la desinformación, desde la pobreza hasta los dilemas éticos de las tecnologías emergentes, los sistemas en los que confiamos para gobernar nuestras sociedades no fueron diseñados para la escala y la urgencia de estos desafíos.",
+      "p2_html": "Esto no es un fracaso de los individuos, sino de <strong style=\"color:var(--ink)\">marcos que no han evolucionado para las necesidades del siglo XXI</strong>. Es aquí, en la brecha entre estructuras obsoletas y las demandas de nuestro tiempo, donde surge la necesidad de PRIME Society.",
+      "p3": "PRIME Society es una iniciativa ambiciosa dedicada a reimaginar la gobernanza y las estructuras sociales — ofreciendo un marco flexible que empodera a comunidades, gobiernos y organizaciones para crear sistemas resilientes, transparentes y orientados al propósito, que funcionen de forma más inteligente que las alternativas disponibles."
+    },
+    "principles": {
+      "eyebrow": "Los principios PRIME",
+      "title": "Cinco ideas, completas.",
+      "lead": "PRIME significa Propósito, Resultados, Innovación, Medición y Empírico — cinco principios que dan forma a cada herramienta, estándar y decisión que tomamos. No son lemas; son las restricciones de ingeniería de un nuevo modelo.",
+      "p_h": "Propósito",
+      "p_p_html": "Cada iniciativa, herramienta y política está anclada a un propósito claro y medible. Sin un objetivo definido, la acción se vuelve ruido. El propósito es la pregunta que precede a toda decisión: <em>¿qué estamos intentando lograr realmente, y cómo sabremos si lo logramos?</em>",
+      "r_h": "Resultados",
+      "r_p": "El éxito se define por resultados, no por esfuerzo. Los insumos (dinero gastado, horas trabajadas, programas lanzados) son necesarios, pero no suficientes. PRIME mide lo que efectivamente cambió en la vida de las personas a las que el sistema fue diseñado para servir.",
+      "i_h": "Innovación",
+      "i_p": "Soluciones interoperables y descentralizadas que permiten a las sociedades evolucionar en sus propios términos. PRIME no impone un único modelo — ofrece estándares abiertos y herramientas que cualquier comunidad puede adoptar, adaptar y mejorar.",
+      "m_h": "Medición",
+      "m_p": "Toda política es comprobable, observable y mejorable. La medición no es vigilancia; es el ciclo de retroalimentación que distingue a los sistemas que aprenden de los sistemas ciegos. Lo que no puede medirse no puede mejorarse.",
+      "e_h": "Empírico",
+      "e_p": "Las decisiones se guían por datos y evidencia — no por opinión, tradición o conveniencia política. PRIME trata la gobernanza como un dominio de conocimiento acumulado, no de creencias eternas. Aprendemos, ajustamos y publicamos lo que funciona."
+    },
+    "zape": {
+      "eyebrow": "El modelo territorial de despliegue",
+      "title": "ZAPE — Zona para la Erradicación Acelerada de la Pobreza.",
+      "lead": "Una ZAPE es un territorio definido — un barrio, un distrito, una ciudad, una región — donde PRIME Society coordina los diez dominios de misión a través de Kairós para reducir sistemáticamente, y en última instancia eliminar, la pobreza.",
+      "c1_h": "Territorio definido",
+      "c1_p": "Un área geográfica delimitada — acordada con el gobierno local, comunidades y socios — donde la medición y la coordinación son viables.",
+      "c2_h": "Los 10 dominios activos",
+      "c2_p": "Alimentación, vivienda, salud, educación, empleo, medio ambiente, cívico, gobernanza, datos, emergencia — coordinados en conjunto, no en silos.",
+      "c3_h": "Resultados medidos",
+      "c3_p": "Cada acción queda registrada en Kairós. El progreso es visible — para los vecinos, el gobierno local, los donantes y la federación. La rendición de cuentas es estructural.",
+      "term_label": "Una nota sobre la terminología",
+      "term_text_html": "ZAPE es el nombre operativo y evolucionado de lo que antes se articuló como <strong style=\"color:#fff\">AGE-Zones (Autonomous Governance Experimental Zones)</strong>. La intención es la misma: un territorio definido con la autonomía y la estructura necesarias para experimentar con un modelo de erradicación de la pobreza y demostrar qué funciona.",
+      "cert_label": "Certificación",
+      "cert_text_html": "Una ZAPE que haya sido <strong style=\"color:#fff\">certificada por PRIME Society o por una de sus afiliadas</strong> obtiene la designación <strong style=\"color:#fff\">City 5.0</strong> — un estándar reconocido que indica que el territorio cumple plenamente los requisitos de PRIME en coordinación, medición y resultados verificables de erradicación de la pobreza."
+    },
+    "arch": {
+      "eyebrow": "La arquitectura del poder",
+      "title": "Una nueva forma de organizar la acción colectiva.",
+      "p1_html": "El modelo PRIME propone que la gobernanza funcione menos como una jerarquía y más como un <strong style=\"color:var(--ink)\">sistema operativo</strong>: una capa abierta sobre la cual comunidades, instituciones y ciudadanos componen sus propias soluciones, con estándares compartidos y resultados verificables.",
+      "p2_html": "Esto no es un reemplazo de las instituciones democráticas. Es una <strong style=\"color:var(--ink)\">capa superpuesta</strong> — una capa de coordinación que vuelve más eficaces a las instituciones existentes al darles infraestructura compartida para identificar necesidades, movilizar recursos y medir resultados.",
+      "p3_html": "La tesis más extensa — incluyendo el marco estrategia-táctica-operaciones, el papel de las ciudades como laboratorios, el modelo federativo y el camino civilizatorio de largo plazo — se desarrolla en <a href=\"publications.html\">nuestras publicaciones</a> y en el próximo libro PRIME Society."
+    },
+    "federation": {
+      "eyebrow": "La federación",
+      "title": "Una red de cofundadores, embajadores y socios.",
+      "p1": "PRIME Society se estructura como una federación — no una organización única, sino una red de personas e instituciones comprometidas con el modelo y dispuestas a desplegarlo localmente.",
+      "p2": "Cofundadores, embajadores, instituciones socias y capítulos de la federación trabajan en conjunto para dar forma al estándar, ejecutar pilotos y escalar lo que funciona."
+    },
+    "cta_section": {
+      "eyebrow": "De la visión a la acción",
+      "title": "El modelo es real. Los pilotos están tomando forma.",
+      "p": "Si el modelo resuena, el próximo paso es concreto — explora la plataforma Kairós, lee las publicaciones o únete a la federación."
+    }
+  },
+  "publications": {
+    "page_title": "Publicaciones — PRIME Society",
+    "hero": {
+      "eyebrow": "Palabras e ideas",
+      "title": "Publicaciones.",
+      "lead": "Artículos, entrevistas y libros de PRIME Society — explorando gobernanza, innovación, tecnología, cultura y el camino hacia un futuro sin pobreza."
+    },
+    "articles": {
+      "eyebrow": "Artículos y ensayos",
+      "title": "Escritos recientes.",
+      "meta_article": "Artículo",
+      "meta_author": "Daniel R. Schnaider",
+      "read": "Leer artículo →"
+    },
+    "talks": {
+      "eyebrow": "Entrevistas y charlas",
+      "title": "En conversación.",
+      "t1_label": "Podcast · Business & Connections",
+      "t1_title": "Daniel Schnaider — Episodio 25, Temporada 2",
+      "t1_p": "Conducido por Sidney Botelho. Conversación con Daniel Schnaider, CEO de Platform Capital y Presidente Voluntario de PRIME Society.",
+      "t2_label": "Podcast · Política Real",
+      "t2_title": "Daniel Schnaider — Erradicar a Pobreza",
+      "t2_p": "Una conversación extensa con Daniel Schnaider, líder de PRIME Society, sobre la misión de erradicar la pobreza mediante sistemas coordinados.",
+      "t3_label": "Podcast · Contrato Social",
+      "t3_title": "Daniel Schnaider — Episodio #67 con Thomas Law",
+      "t3_p": "Una conversación con el presentador Thomas Law sobre Ciudad 5.0, erradicación de la pobreza y la visión de PRIME Society."
+    },
+    "books": {
+      "eyebrow": "Libros",
+      "title": "Obras fundacionales y lecturas recomendadas.",
+      "by": "Por Daniel R. Schnaider",
+      "feat_title": "Mobilidade 5.0 — De los Caballos a Marte",
+      "lang_note": "Actualmente disponible solo en portugués · Traducción al inglés en curso",
+      "feat_p": "Cómo la tecnología del transporte moldea nuestras vidas. Una exploración de cómo la movilidad — de los caballos a los vuelos espaciales — ha rediseñado, y sigue rediseñando, la sociedad, la gobernanza y el futuro del movimiento humano. Escrito por el cofundador y presidente de PRIME Society, publicado por Alta Books con prólogo de Giuseppe Lumare Junior.",
+      "amazon_cta": "Cómpralo en Amazon →",
+      "rec_eyebrow": "Lectura recomendada",
+      "rec_title": "Libros que dieron forma a la tesis PRIME.",
+      "b1_sub": "Eric A. Posner · Uprooting Capitalism and Democracy for a Just Society",
+      "b2_sub": "Balaji Srinivasan · How to Start a New Country",
+      "b3_sub": "Scott Fitsimones · How Internet Strangers Are Building Collective Movements",
+      "b4_sub": "Tom W. Bell · From the Nation State to Stateless Nations",
+      "b5_sub": "James Dale Davidson · Mastering the Transition to the Information Age",
+      "b6_sub": "Titus Gebel · Making Governments Compete For You"
+    },
+    "cta_section": {
+      "eyebrow": "Sigue cerca",
+      "title": "Recibe las nuevas publicaciones cuando salgan.",
+      "p": "Artículos, entrevistas, libros y notas de progreso — directo a tu bandeja de entrada."
+    },
+    "video": {
+      "close_aria": "Cerrar video",
+      "modal_aria": "Reproductor de video"
+    }
+  },
+  "contact": {
+    "page_title": "Contacto — PRIME Society",
+    "hero": {
+      "eyebrow": "Escríbenos",
+      "headline_html": "<em>Hablemos</em>.",
+      "lead": "Sea para asociarte, apoyar, hacer una pregunta o invitarnos a hablar — nos encantaría saber de ti."
+    },
+    "form": {
+      "name_label": "Tu nombre",
+      "email_label": "Correo electrónico",
+      "org_label": "Organización (opcional)",
+      "interest_label": "Te escribo como…",
+      "interest_placeholder": "Elige un rol o escribe el tuyo",
+      "chip_donor": "Donante",
+      "chip_citizen": "Ciudadano",
+      "chip_volunteer": "Voluntario",
+      "chip_company": "Empresa / patrocinador",
+      "chip_city": "Ciudad / gobierno",
+      "chip_researcher": "Investigador / académico",
+      "chip_builder": "Constructor / desarrollador",
+      "chip_media": "Medios / prensa",
+      "subject_label": "Asunto",
+      "subject_placeholder": "¿De qué se trata?",
+      "message_label": "Tu mensaje",
+      "message_placeholder": "Cuéntanos qué tienes en mente.",
+      "send": "Enviar mensaje",
+      "thanks": "✓ Mensaje enviado. Responderemos pronto."
+    },
+    "aside": {
+      "eyebrow": "Canales directos",
+      "title": "Otras formas de contactarnos.",
+      "email_label": "Correo electrónico",
+      "response_label": "Tiempo de respuesta",
+      "response_text": "Leemos cada mensaje. Solemos responder en menos de 48 horas en días hábiles.",
+      "follow_label": "Sigue el trabajo",
+      "office_label": "Oficina / sede",
+      "office_text": "PRIME Society es una federación global. Nuestros cofundadores y embajadores están en Brasil, Chile, Florida e India."
+    },
+    "teaser": {
+      "eyebrow": "Ya que estás aquí",
+      "title": "Explora el trabajo.",
+      "p": "Lee las publicaciones, mira lo que hemos construido o conoce Kairós — el motor de coordinación detrás de todo."
+    }
+  },
+  "pub": {
+    "art": {
+      "digital-currencies-allies-in-poverty-reduction": {
+        "title": "Monedas Digitales: ¿Aliadas en la Reducción de la Pobreza?",
+        "excerpt": "A la inflación se la llama, muchas veces, \"el impuesto de los pobres\". ¿Podrán las monedas digitales locales — diseñadas para proteger el poder adquisitivo de los más vulnerables — convertirse en aliadas en la reducción de la pobreza?"
+      },
+      "the-elephant-in-the-brazilians-room": {
+        "title": "El elefante en la sala del brasileño",
+        "excerpt": "Promulgada en 1988 como la carta de la redemocratización, la Constitución brasileña se convirtió también en uno de los mayores obstáculos para el desarrollo del país. ¿Por qué Brasil necesita una nueva constitución para el siglo XXI?"
+      },
+      "ai-and-the-fight-against-poverty-friend-or-foe": {
+        "title": "La IA y la Lucha Contra la Pobreza: ¿Amiga o Enemiga?",
+        "excerpt": "¿Cómo evolucionará la lucha contra la pobreza cuando los seres humanos se vuelvan obsoletos? Muchos expertos señalan la Renta Básica Universal (RBU) como la solución obvia. La RBU funcionaría como un pago periódico garantizado a todos los ciudadanos, independientemente del trabajo, ofreciendo seguridad económica frente a la creciente sustitución del trabajo humano por máquinas…"
+      },
+      "culture-as-a-determining-factor-of-success-can-it-be-influenced": {
+        "title": "La Cultura como Factor Determinante del Éxito: ¿Se Puede Influir en Ella?",
+        "excerpt": "Un análisis personal sobre Brasil e Israel. Es común que las personas cuestionen los procesos de planificación dentro de las organizaciones, sobre todo al prever eventos futuros, como los ingresos. La verdadera enseñanza reside en la diferencia entre lo planificado y lo ejecutado — es en este llamado \"análisis de brechas\" donde ocurre el aprendizaje real…"
+      },
+      "nation-state-the-beginning-of-the-end": {
+        "title": "Estado-nación: El Comienzo del Fin",
+        "excerpt": "\"Está en nuestro poder comenzar el mundo de nuevo.\" — Thomas Paine. Mucho antes de que el Estado-nación surgiera como la forma predominante de organización política, el poder se ejercía a través de una variedad de otros marcos: grandes imperios, ciudades-estado y más. Este texto reflexiona sobre lo que viene después."
+      },
+      "from-guesswork-to-evidence-when-data-steers-the-course-to-decisions": {
+        "title": "De la Conjetura a la Evidencia: Cuando los Datos Guían el Rumbo de las Decisiones",
+        "excerpt": "\"Todos tienen derecho a su propia opinión, pero no a sus propios hechos.\" — Daniel Patrick Moynihan. Distintas sociedades y culturas sostienen creencias que, al ser sometidas al escrutinio científico, no encuentran respaldo empírico. Este ensayo examina cómo la evidencia — y no la tradición o la opinión — debe guiar las decisiones de la sociedad."
+      },
+      "what-is-the-secret-to-innovation": {
+        "title": "¿Cuál es el secreto de la innovación?",
+        "excerpt": "\"La experiencia no es lo que le sucede a un hombre; es lo que un hombre hace con lo que le sucede.\" — Aldous Huxley. Nuestros ancestros crearon las primeras herramientas hace unos tres millones de años. Pero, a medida que la civilización avanza y la calidad de vida mejora, dos fuerzas opuestas moldean lo que la innovación realmente es…"
+      },
+      "purpose-and-society-what-unites-us": {
+        "title": "Propósito y Sociedad: Lo Que Nos Une",
+        "excerpt": "\"Donde no hay visión, el pueblo perece.\" — Proverbios 29:18. La necesidad de un propósito compartido en las sociedades es un tema de gran relevancia. Desde una perspectiva libertaria, la libertad misma podría ser el objetivo fundamental — pero ¿basta la libertad por sí sola para unir a una sociedad?"
+      },
+      "accelerating-in-neutral-a-critical-analysis-of-esg-and-dei-self-sabotage": {
+        "title": "Acelerando en Punto Muerto: Un Análisis Crítico del Autosabotaje del ESG y el DEI",
+        "excerpt": "\"Lo esencial es invisible a los ojos.\" — Antoine de Saint-Exupéry. El ESG y el DEI son importantes — pero pueden ser contraproducentes para sus propios objetivos. La cuestión radica, en gran medida, en la incomprensión del público sobre la correlación y la causalidad. Este artículo busca esclarecer eso."
+      },
+      "matrix-stay-or-leave-rethinking-government-in-accelerated-times": {
+        "title": "Matrix: ¿Quedarse o Partir? Repensar el Gobierno en Tiempos Acelerados",
+        "excerpt": "\"La Matrix está en todas partes. Está a nuestro alrededor. Incluso ahora, en esta misma habitación…\" — Morpheus. Vivimos dentro de estructuras tan familiares que ya no las vemos. El gobierno en tiempos acelerados exige repensar lo que aceptamos como el orden natural de las cosas."
+      },
+      "bridges-to-shared-humanity-a-global-culture-for-an-interconnected-planet": {
+        "title": "Puentes hacia una Humanidad Compartida: Una Cultura Global para un Planeta Interconectado",
+        "excerpt": "En preparación para el Horasis Global Meeting en Vitória, Brasil, este texto reflexiona sobre lo que nos divide y lo que nos une. La mayoría de los fracasos de consenso tienen su raíz en una distinción entre análisis y síntesis: entre disciplinas que ven partes y aquellas que ven todos."
+      },
+      "the-world-needs-god-more-than-ever-before": {
+        "title": "El Mundo Necesita a GOD Más que Nunca",
+        "excerpt": "\"Así como las leyes y las instituciones deben ir de la mano con el progreso de la mente humana… Las instituciones deben avanzar para mantenerse al ritmo de los tiempos.\" — Thomas Jefferson. Vivimos un momento crítico que exige una profunda reevaluación de las estructuras de gobernanza."
+      },
+      "human-resources-in-the-age-of-ai-the-key-to-the-future": {
+        "title": "Recursos Humanos en la Era de la IA: la Clave para el Futuro",
+        "excerpt": "\"El mayor activo de cualquier comunidad es su capital humano.\" — Herbert Hoover. El pipeline convencional de RR. HH. está roto. La IA está exponiendo décadas de ineficiencia. La verdadera pregunta: ¿qué significa el capital humano en una era en la que las máquinas pueden realizar la mayor parte del trabajo cognitivo?"
+      },
+      "global-potential-for-borderless-challenges-rethinking-human-capital-allocation": {
+        "title": "Potencial Global para Desafíos Sin Fronteras: Repensando la Asignación de Capital Humano",
+        "excerpt": "\"El analfabeto del siglo XXI no será aquel que no sepa leer y escribir, sino aquel que no sepa aprender, desaprender y reaprender.\" — Alvin Toffler. Las recuperaciones de posguerra de Japón y Alemania nos enseñan que el capital humano —y no el capital por sí solo— fue el diferenciador."
+      },
+      "ai-the-best-friend-of-the-c-level": {
+        "title": "IA, la Mejor Amiga del C-Level",
+        "excerpt": "\"El mayor enemigo del conocimiento no es la ignorancia, es la ilusión del conocimiento.\" — Stephen Hawking. Una conversación real con el director de un gigante global de las telecomunicaciones que creía que sus productos de análisis no generaban insights — cuando el insight estaba ahí, en los datos."
+      },
+      "virtualization-perspectives-on-the-future-of-business": {
+        "title": "Virtualización: Perspectivas sobre el Futuro de los Negocios",
+        "excerpt": "\"La necesidad es la madre de la invención.\" — Platón. Pocas empresas son tan desafiantes e inciertas como predecir hacia dónde se dirige el propio negocio. La virtualización está remodelando el trabajo, el valor y el significado mismo de \"estar presente\"."
+      }
+    }
+  }
+}

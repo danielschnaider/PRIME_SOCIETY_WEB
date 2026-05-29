@@ -1,834 +1,524 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PRIME Society — Innovation for a Poverty-Free Future</title>
-<meta name="description" content="PRIME Society is a nonprofit federation pioneering next-generation governance models to eradicate poverty through Autonomous Governance Experimental Zones.">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="PRIME Society">
-<meta property="og:title" content="PRIME Society — Innovation for a Poverty-Free Future">
-<meta property="og:description" content="PRIME Society is a nonprofit federation pioneering next-generation governance models to eradicate poverty through Autonomous Governance Experimental Zones.">
-<meta property="og:image" content="https://primesocietyweb.luby.digital/assets/img/unsplash/hero-community.jpg">
-<meta property="og:url" content="https://primesocietyweb.luby.digital/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PRIME Society — Innovation for a Poverty-Free Future">
-<meta name="twitter:description" content="PRIME Society is a nonprofit federation pioneering next-generation governance models to eradicate poverty through Autonomous Governance Experimental Zones.">
-<meta name="twitter:image" content="https://primesocietyweb.luby.digital/assets/img/unsplash/hero-community.jpg">
-<link rel="alternate" hreflang="en" href="index.html">
-<link rel="alternate" hreflang="es" href="index.html">
-<link rel="alternate" hreflang="pt-BR" href="index.html">
+<title data-i18n="home.page_title">PRIME Society — Innovation for a Poverty-Free Future</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css">
-<link rel="icon" type="image/png" href="assets/img/783436_e0840c5efa1346c2b84a14de553a4325-mv2.png">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="proto.css">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/prime-mark.png">
+<script>(function(){var l=localStorage.getItem('prime-lang')||'en';document.documentElement.lang=l;document.documentElement.classList.add('i18n-loading');})();</script>
 </head>
 <body>
-<a href="#main-content" class="skip-link" data-i18n="a11y.skip_link">Skip to main content</a>
 
-<!-- ─── Header ─── -->
-<header class="site-header">
-  <div class="container">
-    <a class="brand" href="index.html">
-      <img src="assets/img/783436_e0840c5efa1346c2b84a14de553a4325-mv2.png" alt="PRIME Society">
-    </a>
-    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="nav" id="main-nav">
-      <a href="about.html" data-i18n="nav.about">About</a>
-      <a href="intro.html" data-i18n="nav.intro">Intro</a>
-      <a href="index.html#prime-tools" data-i18n="nav.tools">PRIME Tools</a>
-      <a href="kairos.html" data-i18n="nav.kairos">Kairos</a>
-      <a href="civitasnews.html" data-i18n="nav.civitasnews">CivitasNews</a>
-      <a href="engage.html" data-i18n="nav.engage">Engage</a>
+<!-- ───────── Header ───────── -->
+<header class="site-head" id="head">
+  <div class="wrap nav-bar">
+    <a class="brand" href="#"><img class="mark" src="assets/img/prime-mark.png" alt=""> PRIME Society</a>
+    <nav class="nav-links">
+      <a href="#kairos" data-i18n="nav.kairos">Kairós</a>
+      <a href="#built" data-i18n="nav.work">Our work</a>
+      <a href="#domains" data-i18n="nav.initiatives">Initiatives</a>
+      <a href="publications.html" data-i18n="nav.publications">Publications</a>
+      <a href="vision.html" data-i18n="nav.vision">Vision &amp; Model</a>
       <a href="contact.html" data-i18n="nav.contact">Contact</a>
-      <a href="donate.html" class="nav-cta" data-i18n="nav.donate">Donate</a>
-      <div class="lang-switcher" role="group" aria-label="Language">
-        <button class="lang-btn active" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="pt">PT</button>
-        <button class="lang-btn" data-lang="es">ES</button>
-      </div>
     </nav>
+    <div class="nav-actions">
+      <a href="#involved" class="btn btn-primary" data-i18n="cta.get_involved">Get involved</a>
+      <div class="lang-switch">
+        <button class="lang-trigger" type="button" aria-haspopup="true" aria-expanded="false" data-i18n-aria="lang.switcher_aria" aria-label="Choose language">
+          <svg class="lang-globe" viewBox="0 0 20 20" aria-hidden="true">
+            <circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M2 10h16" stroke="currentColor" stroke-width="1.2" fill="none"/>
+            <path d="M10 2c2.5 2 2.5 14 0 16" stroke="currentColor" stroke-width="1.2" fill="none"/>
+            <path d="M10 2c-2.5 2-2.5 14 0 16" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          </svg>
+          <span class="lang-current">English</span>
+          <svg class="lang-chev" viewBox="0 0 12 8" aria-hidden="true">
+            <path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="lang-menu" role="menu">
+          <button class="lang-option" role="menuitem" type="button" data-lang-switch="en">
+            <span class="lang-name">English</span>
+            <span class="lang-code">EN</span>
+          </button>
+          <button class="lang-option" role="menuitem" type="button" data-lang-switch="pt">
+            <span class="lang-name">Português</span>
+            <span class="lang-code">PT</span>
+          </button>
+          <button class="lang-option" role="menuitem" type="button" data-lang-switch="es">
+            <span class="lang-name">Español</span>
+            <span class="lang-code">ES</span>
+          </button>
+        </div>
+      </div>
+      <button class="nav-toggle" data-i18n-aria="nav.menu" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
 
-<!-- ─── Hero ─── -->
-<section class="hero" id="main-content" aria-labelledby="hero-heading">
-
-  <!-- Floating stat cards (hidden on tablet/mobile via CSS) -->
-  <div class="hero-cards" aria-hidden="true">
-    <div class="hero-card hero-card-tl">
-      <div class="hero-card-label">
-        <span class="hero-card-icon" style="background:rgba(13,148,136,0.25);">🤝</span>
-        Community Members
+<!-- ───────── 1. Hero ───────── -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal">
+      <span class="eyebrow" data-i18n="home.hero.eyebrow">A nonprofit federation · Est. 2024</span>
+      <h1 data-i18n-html="home.hero.headline_html">Ending poverty is a <em>coordination</em> problem we can solve.</h1>
+      <p class="lead" data-i18n="home.hero.lead">Every community has people who need help — and people, resources, and institutions able to help. PRIME Society uses Kairós to connect them with purpose, transparency, and measurable results.</p>
+      <div class="hero-cta">
+        <a href="#kairos" class="btn btn-terra btn-lg" data-i18n="cta.explore_kairos">Explore Kairós</a>
+        <a href="#involved" class="btn-text"><span data-i18n="cta.get_involved">Get involved</span> <span class="arr">→</span></a>
       </div>
-      <div class="hero-card-value">12,450</div>
-      <div class="hero-card-sub">across 40+ countries</div>
-      <div class="hero-card-trend">↑ 18% this quarter</div>
     </div>
-    <div class="hero-card hero-card-tr">
-      <div class="hero-card-label">
-        <span class="hero-card-icon" style="background:rgba(16,185,129,0.25);">🌿</span>
-        Food Rescued
-      </div>
-      <div class="hero-card-value">142K<span style="font-size:1rem;font-weight:500;opacity:.6"> kg</span></div>
-      <div class="hero-card-sub">meals saved from waste</div>
-      <div class="hero-card-trend">↑ 34% this month</div>
-    </div>
-    <div class="hero-card hero-card-bl">
-      <div class="hero-card-label">
-        <span class="hero-card-icon" style="background:rgba(245,158,11,0.25);">🛡</span>
-        Trust Score
-      </div>
-      <div class="hero-card-value">84.7</div>
-      <div class="hero-card-sub">verified impact events</div>
-      <div class="hero-card-trend">↑ Certified</div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="hero-pill">
-      <span class="hero-pill-dot"></span>
-      <span data-i18n="hero.pill">40 Civic Tech Apps · Powered by Kairos</span>
-    </div>
-    <h1 id="hero-heading" data-i18n="hero.title">We believe that ending poverty is not only possible — it's within reach, and together, we can make it happen today.</h1>
-    <p class="subhead" data-i18n="hero.subtitle">Why wait for change? Support a PRIME Society today.</p>
-    <div class="cta-row">
-      <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="hero.cta_join">Join the Federation</a>
-      <a href="kairos.html" class="btn btn-outline btn-lg" data-i18n="hero.cta_kairos">Explore Kairos</a>
-      <a href="donate.html" class="btn btn-outline btn-lg" data-i18n="hero.cta_donate">Donate</a>
-    </div>
-    <div class="trust-row" aria-label="Trust signals">
-      <span class="trust-badge" data-i18n="hero.trust1">Nonprofit Federation</span>
-      <span class="trust-badge" data-i18n="hero.trust2">Open Standards</span>
-      <span class="trust-badge" data-i18n="hero.trust3">386 Organizations</span>
-      <span class="trust-badge" data-i18n="hero.trust4">84.7 Trust Score</span>
+    <div class="hero-media reveal">
+      <div class="hero-photo"><img src="assets/img/unsplash/hero-community.jpg" alt=""></div>
     </div>
   </div>
 </section>
 
-<!-- ─── KPI Strip ─── -->
-<section class="kpi-strip" aria-label="Platform impact metrics">
-  <div class="container">
-    <div class="kpi-grid">
-      <div class="kpi-item" data-kpi="12450">
-        <span class="kpi-num">12,450</span>
-        <span class="kpi-label" data-i18n="kpi.members">Community Members</span>
+<!-- ───────── 2. The Problem ───────── -->
+<section class="section problem">
+  <div class="wrap problem-grid">
+    <div class="problem-visual reveal">
+      <img src="assets/img/unsplash/app-school.jpg" alt="">
+    </div>
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="home.problem.eyebrow">The problem</span>
+      <h2 data-i18n="home.problem.title">Most efforts to fight poverty fail in the same place.</h2>
+      <p class="lead" data-i18n="home.problem.lead">Poverty does not persist only because societies lack compassion, money, ideas, or institutions. It persists because needs, resources, people, data, and action are often disconnected. PRIME Society exists to close that gap — transforming scattered goodwill into coordinated, measurable systems that can identify what is needed, mobilize what is available, and verify what actually works.</p>
+      <ul class="problem-points">
+        <li>
+          <span class="pp-num">01</span>
+          <span class="pp-txt"><b data-i18n="home.problem.p1_title">Needs are invisible or poorly understood</b><span data-i18n="home.problem.p1_text">Many people and communities need help, but their needs are fragmented, outdated, undocumented, or hidden across institutions. Without a clear view of who needs what, where, and why, even well-intentioned programs miss the people they are supposed to serve.</span></span>
+        </li>
+        <li>
+          <span class="pp-num">02</span>
+          <span class="pp-txt"><b data-i18n="home.problem.p2_title">Resources are available but disconnected</b><span data-i18n="home.problem.p2_text">Food, funding, volunteers, services, knowledge, infrastructure, and institutional capacity often exist — but they sit in separate systems and networks. The problem is not only scarcity; it is the absence of a trusted mechanism to match available resources with real needs.</span></span>
+        </li>
+        <li>
+          <span class="pp-num">03</span>
+          <span class="pp-txt"><b data-i18n="home.problem.p3_title">Action is not measured or coordinated</b><span data-i18n="home.problem.p3_text">Even when help arrives, impact is often hard to verify, compare, improve, or scale. Without shared standards, feedback loops, and transparent measurement, societies repeat isolated interventions instead of building cumulative intelligence about what truly works.</span></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 3. Kairós band (dark green) ───────── -->
+<section class="section kairos-band" id="kairos">
+  <div class="wrap kairos-inner">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="home.kairos.eyebrow">The flagship engine</span>
+      <h2 data-i18n="home.kairos.title">Meet Kairós — where vision becomes action.</h2>
+
+      <div class="k-flow">
+        <span class="vb" data-i18n="home.kairos.flow_identify">Identify</span><span class="ar">→</span>
+        <span class="vb" data-i18n="home.kairos.flow_match">Match</span><span class="ar">→</span>
+        <span class="vb" data-i18n="home.kairos.flow_coordinate">Coordinate</span><span class="ar">→</span>
+        <span class="vb" data-i18n="home.kairos.flow_measure">Measure</span><span class="ar">→</span>
+        <span class="vb" data-i18n="home.kairos.flow_scale">Scale</span>
       </div>
-      <div class="kpi-item" data-kpi="386">
-        <span class="kpi-num">386</span>
-        <span class="kpi-label" data-i18n="kpi.orgs">Organizations</span>
+
+      <p class="lead" data-i18n="home.kairos.lead">Kairós is the coordination engine of PRIME Society. It connects needs, resources, people, organizations, and data into practical action flows — helping communities match demand with supply, coordinate execution, verify outcomes, and continuously improve.</p>
+
+      <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top: 1.6rem;">
+        <a href="kairos.html" class="btn btn-terra btn-lg" data-i18n="cta.explore_kairos">Explore Kairós</a>
+        <a href="#domains" class="btn-text" style="color:#fff"><span data-i18n="home.kairos.see_possible">See what becomes possible</span> <span class="arr">→</span></a>
       </div>
-      <div class="kpi-item" data-kpi="142300" data-suffix="kg">
-        <span class="kpi-num">142,300kg</span>
-        <span class="kpi-label" data-i18n="kpi.food">Food Rescued</span>
-      </div>
-      <div class="kpi-item" data-kpi="92300">
-        <span class="kpi-num">92,300</span>
-        <span class="kpi-label" data-i18n="kpi.interactions">Civic Interactions</span>
-      </div>
-      <div class="kpi-item">
-        <span class="kpi-num" style="color:var(--teal)">84.7</span>
-        <span class="kpi-label" data-i18n="kpi.trust">Trust Score</span>
+    </div>
+
+    <div class="reveal">
+      <!-- Need → Kairós matches → Outcome -->
+      <div class="nmo">
+        <div class="nmo-row">
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_need">Need</div><div class="v" data-i18n="home.kairos.ex1_need">A family needs food support this week.</div></div>
+          <div class="nmo-arr">→</div>
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_match">Kairós matches</div><div class="v" data-i18n="home.kairos.ex1_match">Food donors, local organizations, volunteers, delivery capacity.</div></div>
+          <div class="nmo-arr">→</div>
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_outcome">Outcome</div><div class="v" data-i18n="home.kairos.ex1_out">Food delivered, action verified, community insight on recurring needs.</div></div>
+        </div>
+        <div class="nmo-row">
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_need">Need</div><div class="v" data-i18n="home.kairos.ex2_need">A young person needs a path from unemployment to income.</div></div>
+          <div class="nmo-arr">→</div>
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_match">Kairós matches</div><div class="v" data-i18n="home.kairos.ex2_match">Training programs, mentors, employers, transportation, follow-up.</div></div>
+          <div class="nmo-arr">→</div>
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_outcome">Outcome</div><div class="v" data-i18n="home.kairos.ex2_out">A practical income pathway, tracked from training to employment.</div></div>
+        </div>
+        <div class="nmo-row">
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_need">Need</div><div class="v" data-i18n="home.kairos.ex3_need">A neighborhood faces unsafe spaces, weak services, no activities for youth.</div></div>
+          <div class="nmo-arr">→</div>
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_match">Kairós matches</div><div class="v" data-i18n="home.kairos.ex3_match">Residents, city agencies, NGOs, sponsors, volunteers, data, projects.</div></div>
+          <div class="nmo-arr">→</div>
+          <div class="nmo-cell"><div class="lab" data-i18n="home.kairos.lab_outcome">Outcome</div><div class="v" data-i18n="home.kairos.ex3_out">From isolated complaints to coordinated, measurable improvement.</div></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ─── About ─── -->
-<section class="section reveal">
-  <div class="container">
-    <div class="about-grid">
-      <div>
-        <span class="eyebrow" data-i18n="home.about_eyebrow">About PRIME Society</span>
-        <h2 style="margin-top:.5rem;" data-i18n="home.about_title">A formula for a poverty-free, sustainable future.</h2>
-        <p data-i18n="home.about_p1">PRIME Society is a nonprofit federation that provides what we believe is the formula for a poverty-free and sustainable future — through cutting-edge tools, best practices, and open standards.</p>
-        <p data-i18n-html="home.about_p2">We are a global initiative dedicated to pioneering next-generation governance models designed to eradicate poverty through <strong>AGE-Zones</strong> policies (Autonomous Governance Experimental Zones).</p>
-        <div style="margin-top:1.5rem;display:flex;gap:.75rem;flex-wrap:wrap;">
-          <a href="contact.html" class="btn btn-primary" data-i18n="home.about_cta_join">Join the Federation</a>
-          <a href="about.html" class="btn btn-dark" data-i18n="home.about_cta_more">Read more</a>
-        </div>
+<!-- ───────── 3b. What Kairós can do (4 capabilities) ───────── -->
+<section class="section cap-section">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow center-eb" data-i18n="home.cap.eyebrow">What Kairós can do</span>
+      <h2 data-i18n="home.cap.title">Four capabilities. One engine.</h2>
+    </div>
+    <div class="cap-grid reveal">
+      <article class="cap">
+        <div class="ci">🎯</div>
+        <h4 data-i18n="home.cap.c1_h">Identify real needs</h4>
+        <p data-i18n="home.cap.c1_p">Map what people, families, organizations, and communities actually need — with context, urgency, location, and eligibility.</p>
+      </article>
+      <article class="cap">
+        <div class="ci">🔗</div>
+        <h4 data-i18n="home.cap.c2_h">Match resources intelligently</h4>
+        <p data-i18n="home.cap.c2_p">Connect needs with the right donors, volunteers, services, institutions, suppliers, programs, and funding sources.</p>
+      </article>
+      <article class="cap">
+        <div class="ci">⚙️</div>
+        <h4 data-i18n="home.cap.c3_h">Coordinate execution</h4>
+        <p data-i18n="home.cap.c3_p">Turn intention into action by organizing workflows, responsibilities, logistics, communication, and follow-up.</p>
+      </article>
+      <article class="cap">
+        <div class="ci">📊</div>
+        <h4 data-i18n="home.cap.c4_h">Measure what works</h4>
+        <p data-i18n="home.cap.c4_p">Verify delivery, track outcomes, compare interventions, and help communities improve through evidence.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 4. What we've built so far ───────── -->
+<section class="section built" id="built">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow center-eb" data-i18n="home.built.eyebrow">Our work · two years in</span>
+      <h2 data-i18n="home.built.title">What we've built so far.</h2>
+      <p class="lead" data-i18n="home.built.lead">We're an R&amp;D-phase nonprofit federation. Below is the infrastructure we're developing to make coordinated action against poverty possible at community, city, and federation scale.</p>
+    </div>
+
+    <div class="built-list reveal">
+      <div class="built-row">
+        <div class="built-ic">📐</div>
+        <div class="built-txt"><b data-i18n="home.built.r1_t">The PRIME Model &amp; Standard</b><span data-i18n="home.built.r1_d">The principles, framework, and open standard that define how PRIME Societies operate.</span></div>
+        <span class="pill building" data-i18n="home.built.pill_active_dev">Active development</span>
       </div>
-      <img src="assets/img/unsplash/about-community.jpg" alt="Community members working together" loading="lazy">
-    </div>
-  </div>
-</section>
-
-<!-- ─── Kairos Feature Section (Dark) ─── -->
-<section class="section-dark kairos-feature" id="kairos" aria-labelledby="kairos-heading">
-  <div class="container">
-    <div class="kairos-grid">
-
-      <!-- Left: Text -->
-      <div class="kairos-text reveal">
-        <span class="eyebrow-light" data-i18n="home.kairos_eyebrow">The Backbone of Everything</span>
-        <h2 id="kairos-heading" data-i18n="home.kairos_title">Kairos — Where Civic Coordination Becomes Reality</h2>
-        <p data-i18n="home.kairos_p1">Kairos is PRIME Society's flagship platform — a modular civic operating system that coordinates time, goods, capital, opportunities, trust and governance across 40 apps.</p>
-        <p data-i18n="home.kairos_p2">Everything succeeds if Kairos succeeds. It is the infrastructure layer that turns vision into measurable impact.</p>
-        <ul class="kairos-features">
-          <li>
-            <span class="feat-icon teal">🤝</span>
-            <span data-i18n="home.kairos_feat1">Micro-Voluntarism — match skills to urgent civic tasks</span>
-          </li>
-          <li>
-            <span class="feat-icon emerald">🌿</span>
-            <span data-i18n="home.kairos_feat2">Food Rescue — AI-coordinated redistribution network</span>
-          </li>
-          <li>
-            <span class="feat-icon amber">💡</span>
-            <span data-i18n="home.kairos_feat3">Impact Funding — outcome-based grants with trust scoring</span>
-          </li>
-          <li>
-            <span class="feat-icon sky">🛡</span>
-            <span data-i18n="home.kairos_feat4">Hestia AI — intelligent automation with human oversight</span>
-          </li>
-        </ul>
-        <div class="kairos-ctas">
-          <a href="kairos.html" class="btn btn-teal" data-i18n="home.kairos_cta_explore">Explore Kairos →</a>
-          <a href="contact.html" class="btn btn-outline" data-i18n="home.kairos_cta_partner">Partner with Us</a>
-        </div>
+      <div class="built-row is-build">
+        <div class="built-ic">📚</div>
+        <div class="built-txt"><b data-i18n="home.built.r2_t">Book — PRIME Society</b><span data-i18n="home.built.r2_d">The founding work articulating the vision, the model, and the path to a poverty-free future.</span></div>
+        <span class="pill building" data-i18n="home.built.pill_in_dev">In development</span>
       </div>
-
-      <!-- Right: Coordination types grid -->
-      <div class="reveal reveal-delay-2">
-        <div class="coord-center">
-          <div class="coord-core">
-            <span style="font-size:1.6rem;">⚡</span>
-            <span class="coord-core-label">KAIROS</span>
-          </div>
-        </div>
-        <div class="coord-grid">
-          <div class="coord-card c-teal">
-            <div class="coord-icon">⏱</div>
-            <div class="coord-label" data-i18n="coord.time">Time</div>
-            <div class="coord-sub" data-i18n="coord.time_sub">Volunteer hours</div>
-          </div>
-          <div class="coord-card c-emerald">
-            <div class="coord-icon">📦</div>
-            <div class="coord-label" data-i18n="coord.goods">Goods</div>
-            <div class="coord-sub" data-i18n="coord.goods_sub">Food &amp; supplies</div>
-          </div>
-          <div class="coord-card c-amber">
-            <div class="coord-icon">💰</div>
-            <div class="coord-label" data-i18n="coord.capital">Capital</div>
-            <div class="coord-sub" data-i18n="coord.capital_sub">Grants &amp; funds</div>
-          </div>
-          <div class="coord-card c-sky">
-            <div class="coord-icon">🚀</div>
-            <div class="coord-label" data-i18n="coord.opportunities">Opportunities</div>
-            <div class="coord-sub" data-i18n="coord.opps_sub">Jobs &amp; mentorship</div>
-          </div>
-          <div class="coord-card c-purple">
-            <div class="coord-icon">🛡</div>
-            <div class="coord-label" data-i18n="coord.trust">Trust</div>
-            <div class="coord-sub" data-i18n="coord.trust_sub">Reputation &amp; audit</div>
-          </div>
-          <div class="coord-card c-rose">
-            <div class="coord-icon">🏛</div>
-            <div class="coord-label" data-i18n="coord.governance">Governance</div>
-            <div class="coord-sub" data-i18n="coord.gov_sub">Civic decisions</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ─── 40 Civic Apps ─── -->
-<section class="section apps-section" id="civic-apps" aria-labelledby="apps-heading">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="home.apps_eyebrow">The Portfolio</span>
-      <h2 id="apps-heading" data-i18n="home.apps_title">40 Apps for a Poverty-Free World</h2>
-      <p data-i18n="home.apps_subtitle">From food rescue to civic governance — every app coordinates one dimension of the problem. Together, they form a complete operating system for human flourishing.</p>
-    </div>
-    <div class="apps-grid">
-
-      <!-- Food & Goods -->
-      <article class="app-card cat-food reveal">
-        <div class="app-card-icon">🌿</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.food_redis">Food Redistribution</div>
-          <div class="app-card-desc" data-i18n="app.food_redis_desc">AI-coordinated rescue network connecting surplus food to those in need.</div>
-          <span class="app-badge badge-pilot" data-i18n="app.badge_pilot">Pilot</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-food reveal reveal-delay-1">
-        <div class="app-card-icon">💊</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.medicine_donation">Medicine Donation</div>
-          <div class="app-card-desc" data-i18n="app.medicine_donation_desc">Verified pharmaceutical surplus matched to clinics and patients in need.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-food reveal reveal-delay-2">
-        <div class="app-card-icon">🚜</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.farmer_school">Farmer-to-School</div>
-          <div class="app-card-desc" data-i18n="app.farmer_school_desc">Direct marketplace connecting local farmers to public school meal programs.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-food reveal reveal-delay-3">
-        <div class="app-card-icon">🔬</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.anti_counterfeit">Anti-Counterfeit Medicine</div>
-          <div class="app-card-desc" data-i18n="app.anti_counterfeit_desc">Blockchain verification to track and authenticate pharmaceutical supply chains.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-env reveal reveal-delay-4">
-        <div class="app-card-icon">♻️</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.recycling">Local Recycling Marketplace</div>
-          <div class="app-card-desc" data-i18n="app.recycling_desc">Connects recycling generators to collectors and reprocessors in real time.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Health -->
-      <article class="app-card cat-health reveal">
-        <div class="app-card-icon">🩸</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.blood_donation">Blood Donation Matching</div>
-          <div class="app-card-desc" data-i18n="app.blood_donation_desc">Real-time matching of blood donors to hospitals with urgent needs.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-health reveal reveal-delay-1">
-        <div class="app-card-icon">🫀</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.organ_donor">Organ Donor Awareness</div>
-          <div class="app-card-desc" data-i18n="app.organ_donor_desc">Education and registration platform for organ and tissue donation programs.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-health reveal reveal-delay-2">
-        <div class="app-card-icon">🧠</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.mental_health">Mental Health Access</div>
-          <div class="app-card-desc" data-i18n="app.mental_health_desc">Free mental health support coordination for underserved communities.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-health reveal reveal-delay-3">
-        <div class="app-card-icon">🏥</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.open_appointments">Open Medical Appointments</div>
-          <div class="app-card-desc" data-i18n="app.open_appointments_desc">Fill unused appointment slots in public health systems before they expire.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Volunteering & Emergency -->
-      <article class="app-card cat-social reveal">
-        <div class="app-card-icon">🤝</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.volunteer_matching">Volunteer Matching</div>
-          <div class="app-card-desc" data-i18n="app.volunteer_matching_desc">Micro-task platform connecting skilled volunteers to urgent civic needs.</div>
-          <span class="app-badge badge-pilot" data-i18n="app.badge_pilot">Pilot</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-social reveal reveal-delay-1">
-        <div class="app-card-icon">🚨</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.emergency_response">Emergency Response</div>
-          <div class="app-card-desc" data-i18n="app.emergency_response_desc">Coordinated logistics and resource deployment for disaster relief operations.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-social reveal reveal-delay-2">
-        <div class="app-card-icon">🏚</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.homeless_support">Homeless Support</div>
-          <div class="app-card-desc" data-i18n="app.homeless_support_desc">Connect people experiencing homelessness to shelters, food and services.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-social reveal reveal-delay-3">
-        <div class="app-card-icon">🌍</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.refugee_integration">Refugee Integration</div>
-          <div class="app-card-desc" data-i18n="app.refugee_integration_desc">Language, housing and employment pathways for displaced communities.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-social reveal reveal-delay-4">
-        <div class="app-card-icon">🛡</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.domestic_violence">Domestic Violence Support</div>
-          <div class="app-card-desc" data-i18n="app.domestic_violence_desc">Discreet referral and support network for survivors of domestic abuse.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Civic & Governance -->
-      <article class="app-card cat-civic reveal">
-        <div class="app-card-icon">📍</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.city_reporting">City Problem Reporting</div>
-          <div class="app-card-desc" data-i18n="app.city_reporting_desc">Citizen-powered urban issue tracking with verified resolution workflows.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-1">
-        <div class="app-card-icon">🔍</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.anti_corruption">Anti-Corruption Reporting</div>
-          <div class="app-card-desc" data-i18n="app.anti_corruption_desc">Secure, anonymous channel for reporting corruption with audit trails.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-2">
-        <div class="app-card-icon">📊</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.budget_transparency">Budget Transparency</div>
-          <div class="app-card-desc" data-i18n="app.budget_transparency_desc">Public dashboards for municipal spending, contracts and outcomes.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-3">
-        <div class="app-card-icon">🗳</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.civic_participation">Civic Participation</div>
-          <div class="app-card-desc" data-i18n="app.civic_participation_desc">Participatory budgeting and digital democracy tools for communities.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-4">
-        <div class="app-card-icon">⚖️</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.legal_aid">Legal Aid Matching</div>
-          <div class="app-card-desc" data-i18n="app.legal_aid_desc">Free legal counsel matching for low-income individuals and NGOs.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal">
-        <div class="app-card-icon">📢</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.missing_persons">Missing Persons Alert</div>
-          <div class="app-card-desc" data-i18n="app.missing_persons_desc">Community-powered search network with geo-alerts and coordination tools.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-1">
-        <div class="app-card-icon">♿</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.accessibility">Accessibility Mapping</div>
-          <div class="app-card-desc" data-i18n="app.accessibility_desc">Crowdsourced accessibility data for people with disabilities navigating cities.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Education -->
-      <article class="app-card cat-edu reveal">
-        <div class="app-card-icon">🏫</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.school_support">Public School Support</div>
-          <div class="app-card-desc" data-i18n="app.school_support_desc">Resource matching and volunteer programs for under-resourced public schools.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-edu reveal reveal-delay-1">
-        <div class="app-card-icon">📚</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.dropout_prevention">School Dropout Prevention</div>
-          <div class="app-card-desc" data-i18n="app.dropout_prevention_desc">Early warning systems and mentorship to keep at-risk students in school.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-edu reveal reveal-delay-2">
-        <div class="app-card-icon">🧒</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.child_learning">Child Learning Support</div>
-          <div class="app-card-desc" data-i18n="app.child_learning_desc">Adaptive learning tools and volunteer tutors for children left behind.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-edu reveal reveal-delay-3">
-        <div class="app-card-icon">🤖</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.ai_tutor">AI Tutor</div>
-          <div class="app-card-desc" data-i18n="app.ai_tutor_desc">Personalised AI-powered tutoring in any language for any learning level.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Environment -->
-      <article class="app-card cat-env reveal">
-        <div class="app-card-icon">🌱</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.env_cleanup">Environmental Cleanup</div>
-          <div class="app-card-desc" data-i18n="app.env_cleanup_desc">Organized community cleanup events with impact tracking and gamification.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-env reveal reveal-delay-1">
-        <div class="app-card-icon">🌡</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.carbon_reduction">Carbon Reduction</div>
-          <div class="app-card-desc" data-i18n="app.carbon_reduction_desc">Community carbon tracking, offsetting and reduction challenges.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-env reveal reveal-delay-2">
-        <div class="app-card-icon">💧</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.water_leak">Water Leak Reporting</div>
-          <div class="app-card-desc" data-i18n="app.water_leak_desc">Citizen reporting of water waste and infrastructure failures to utilities.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Care & Housing -->
-      <article class="app-card cat-care reveal">
-        <div class="app-card-icon">👴</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.elderly_care">Elderly Care</div>
-          <div class="app-card-desc" data-i18n="app.elderly_care_desc">Volunteer companion matching and care coordination for isolated elderly.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-care reveal reveal-delay-1">
-        <div class="app-card-icon">🏠</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.affordable_housing">Affordable Housing</div>
-          <div class="app-card-desc" data-i18n="app.affordable_housing_desc">Housing matching for low-income families with verified landlord listings.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-care reveal reveal-delay-2">
-        <div class="app-card-icon">🚌</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.transport">Public Transport Optimization</div>
-          <div class="app-card-desc" data-i18n="app.transport_desc">Crowdsourced data to improve routes and coverage in underserved areas.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-care reveal reveal-delay-3">
-        <div class="app-card-icon">🔒</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.community_safety">Community Safety</div>
-          <div class="app-card-desc" data-i18n="app.community_safety_desc">Neighborhood safety networks with transparent incident tracking.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Economic Empowerment -->
-      <article class="app-card cat-econ reveal">
-        <div class="app-card-icon">💼</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.job_reskilling">Job Reskilling</div>
-          <div class="app-card-desc" data-i18n="app.job_reskilling_desc">Free skills training pathways matched to local labour market demand.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-econ reveal reveal-delay-1">
-        <div class="app-card-icon">🌟</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.micro_internship">Micro-Internship</div>
-          <div class="app-card-desc" data-i18n="app.micro_internship_desc">Short-term professional placements for youth in underserved communities.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-econ reveal reveal-delay-2">
-        <div class="app-card-icon">🔄</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.skill_exchange">Skill-for-Skill Exchange</div>
-          <div class="app-card-desc" data-i18n="app.skill_exchange_desc">Barter-style platform to exchange skills without money as intermediary.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-econ reveal reveal-delay-3">
-        <div class="app-card-icon">📋</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.benefits_navigator">Benefits Navigator</div>
-          <div class="app-card-desc" data-i18n="app.benefits_navigator_desc">AI-guided tool to help citizens discover all social benefits they qualify for.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <!-- Platform & Community -->
-      <article class="app-card cat-civic reveal">
-        <div class="app-card-icon">🤲</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.mutual_aid">Local Mutual-Aid</div>
-          <div class="app-card-desc" data-i18n="app.mutual_aid_desc">Hyper-local networks for neighbours to offer and request help instantly.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-1">
-        <div class="app-card-icon">🚁</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.disaster_logistics">Disaster Donation Logistics</div>
-          <div class="app-card-desc" data-i18n="app.disaster_logistics_desc">Real-time coordination of donations, warehousing and last-mile delivery.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-2">
-        <div class="app-card-icon">🏢</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.ngo_transparency">NGO Transparency</div>
-          <div class="app-card-desc" data-i18n="app.ngo_transparency_desc">Open impact reporting and financial audit trail for nonprofits and donors.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-econ reveal reveal-delay-3">
-        <div class="app-card-icon">💡</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.impact_funding">Impact Funding</div>
-          <div class="app-card-desc" data-i18n="app.impact_funding_desc">Outcome-based grant management with milestone verification and trust scoring.</div>
-          <span class="app-badge badge-pilot" data-i18n="app.badge_pilot">Pilot</span>
-        </div>
-      </article>
-
-      <article class="app-card cat-civic reveal reveal-delay-4">
-        <div class="app-card-icon">⚡</div>
-        <div class="app-card-body">
-          <div class="app-card-name" data-i18n="app.universal">Universal Supply-Meets-Demand</div>
-          <div class="app-card-desc" data-i18n="app.universal_desc">The meta-layer connecting any offer to any need at city scale.</div>
-          <span class="app-badge badge-soon" data-i18n="app.badge_soon">Coming Soon</span>
-        </div>
-      </article>
-
-    </div><!-- /.apps-grid -->
-
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="kairos.html" class="btn btn-primary" data-i18n="home.apps_cta">See all apps on Kairos →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ─── PRIME Tools ─── -->
-<section class="section section-alt" id="prime-tools" aria-labelledby="tools-heading">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="home.tools_eyebrow">PRIME Tools</span>
-      <h2 id="tools-heading" data-i18n="home.tools_title">Tools, frameworks and open standards for a new architecture of power.</h2>
-      <p data-i18n="home.tools_subtitle">A growing toolkit designed to empower communities, governments and organizations to build resilient, transparent, purpose-driven systems.</p>
-    </div>
-    <div class="tools-grid">
-      <article class="tool-card reveal">
-        <div class="img-wrap"><img src="assets/img/2ba95a_ccf858c72ae24ac7953c0e3e4a9fb076-mv2.webp" alt="PRIME Constitution" loading="lazy"></div>
-        <div class="body">
-          <h3 data-i18n="home.tools_constitution_title">PRIME Constitution</h3>
-          <p data-i18n="home.tools_constitution_desc">A foundational framework establishing the principles, rights and responsibilities of PRIME Societies.</p>
-          <a href="engage.html" class="read-more" data-i18n="home.tools_readmore">Read more →</a>
-        </div>
-      </article>
-      <article class="tool-card reveal reveal-delay-1">
-        <div class="img-wrap"><img src="assets/img/2ba95a_8afc6579d4934b0eafa62288b5af8eea-mv2.webp" alt="PRIME Tax" loading="lazy"></div>
-        <div class="body">
-          <h3 data-i18n="home.tools_tax_title">PRIME Tax</h3>
-          <p data-i18n="home.tools_tax_desc">A streamlined, transparent taxation model aligned with purpose-driven outcomes and measurable results.</p>
-          <a href="engage.html" class="read-more" data-i18n="home.tools_readmore">Read more →</a>
-        </div>
-      </article>
-      <article class="tool-card reveal reveal-delay-2">
-        <div class="img-wrap"><img src="assets/img/2ba95a_b03902dbda64497c961153294c6fc22c-mv2.webp" alt="PRIME Voting" loading="lazy"></div>
-        <div class="body">
-          <h3 data-i18n="home.tools_voting_title">PRIME Voting</h3>
-          <p data-i18n="home.tools_voting_desc">Decentralized, verifiable voting mechanisms designed for trust, participation and accountability.</p>
-          <a href="engage.html" class="read-more" data-i18n="home.tools_readmore">Read more →</a>
-        </div>
-      </article>
-      <article class="tool-card reveal reveal-delay-3">
-        <div class="img-wrap"><img src="assets/img/2ba95a_8ff859c7053d4f99a8dfbd80283e574f-mv2.webp" alt="PRIME City" loading="lazy"></div>
-        <div class="body">
-          <h3 data-i18n="home.tools_city_title">PRIME City</h3>
-          <p data-i18n="home.tools_city_desc">The blueprint for City 5.0 — urban systems engineered around purpose, data and human flourishing.</p>
-          <a href="engage.html" class="read-more" data-i18n="home.tools_readmore">Read more →</a>
-        </div>
-      </article>
-    </div>
-    <div class="tools-extra">
-      <p style="color:var(--text-muted);" data-i18n-html="home.tools_extra">Discover additional tools: PRIME Auditing, PRIME DAO…</p>
-    </div>
-  </div>
-</section>
-
-<!-- ─── Team ─── -->
-<section class="section" aria-labelledby="team-heading">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="home.team_eyebrow">The Federation</span>
-      <h2 id="team-heading" data-i18n="home.team_title">Meet our members</h2>
-      <p data-i18n="home.team_subtitle">A multidisciplinary team of leaders, experts and ambassadors building PRIME Society around the world.</p>
-    </div>
-    <div class="team-grid">
-      <figure class="team-member reveal"><div class="photo-wrap"><img src="assets/img/2ba95a_45c05eddf587481ea8c384edf68fb28c-mv2.jpg" alt="Photo of Daniel Schnaider" loading="lazy"></div><figcaption><div class="name">Daniel Schnaider</div><div class="role" data-i18n="team.daniel_role">Chairman</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-1"><div class="photo-wrap"><img src="assets/img/2ba95a_dc28b0cb35404828a65dbd66ab655f2d-mv2.jpg" alt="Photo of Alvaro Rosenblut" loading="lazy"></div><figcaption><div class="name">Alvaro Rosenblut</div><div class="role" data-i18n="team.alvaro_role">Ambassador, Chile</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-2"><div class="photo-wrap"><img src="assets/img/2ba95a_9233219b0ee9487b8d37fee916616303-mv2.jpg" alt="Photo of Jorge Rosenblut" loading="lazy"></div><figcaption><div class="name">Jorge Rosenblut</div><div class="role" data-i18n="team.jorge_role">Ambassador, Florida, USA</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-3"><div class="photo-wrap"><img src="assets/img/783436_c3af374054284bc69628b6ef67939438-mv2.jpg" alt="Photo of Bruno Roberto Padovano" loading="lazy"></div><figcaption><div class="name">Bruno Roberto Padovano</div><div class="role" data-i18n="team.bruno_role">Urban Planner Expert, Brazil</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-4"><div class="photo-wrap"><img src="assets/img/2ba95a_944171dbf861469b919092938930aae4-mv2.jpg" alt="Photo of Caio Cavadas" loading="lazy"></div><figcaption><div class="name">Caio Cavadas</div><div class="role" data-i18n="team.caio_role">Federation &amp; Partnerships</div></figcaption></figure>
-      <figure class="team-member reveal"><div class="photo-wrap"><img src="assets/img/2ba95a_7d95592f824144b9b4adb8e5b4b00b47-mv2.jpg" alt="Photo of Dionisio Moreno" loading="lazy"></div><figcaption><div class="name">Dionisio Moreno</div><div class="role" data-i18n="team.dionisio_role">Institutional Relations, Brazil</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-1"><div class="photo-wrap"><img src="assets/img/2ba95a_e3c1e1457f1b4cc18e55292874fae39a-mv2.jpg" alt="Photo of Eduardo Costa da Silva" loading="lazy"></div><figcaption><div class="name">Eduardo Costa da Silva</div><div class="role" data-i18n="team.eduardo_role">Legal</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-2"><div class="photo-wrap"><img src="assets/img/2ba95a_f4690efab6e54555abbcb57c11ab6247-mv2.jpg" alt="Photo of Fernanda Baruffaldi" loading="lazy"></div><figcaption><div class="name">Fernanda Baruffaldi</div><div class="role" data-i18n="team.fernanda_role">Content &amp; Editorial</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-3"><div class="photo-wrap"><img src="assets/img/2ba95a_50f8ab9c286a47888d691d95f982c261-mv2.jpg" alt="Photo of Hamilton Dona" loading="lazy"></div><figcaption><div class="name">Hamilton Dona</div><div class="role" data-i18n="team.hamilton_role">Data Scientist</div></figcaption></figure>
-      <figure class="team-member reveal reveal-delay-4"><div class="photo-wrap"><img src="assets/img/2ba95a_28699e71bf7d44ce817ba53a90518ede-mv2.jpg" alt="Photo of Nilson Brizoti" loading="lazy"></div><figcaption><div class="name">Nilson Brizoti</div><div class="role" data-i18n="team.nilson_role">Governance Expert</div></figcaption></figure>
-      <figure class="team-member reveal"><div class="photo-wrap"><img src="assets/img/2ba95a_8b0c35c1fb2f40d39b7f905dc0e57160-mv2.jpg" alt="Photo of Bandita B" loading="lazy"></div><figcaption><div class="name">Bandita B</div><div class="role" data-i18n="team.bandita_role">Graphic Designer, India</div></figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<!-- ─── News ─── -->
-<section class="section section-alt" aria-labelledby="news-heading">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="home.news_eyebrow">CivitasNews</span>
-      <h2 id="news-heading" data-i18n="home.news_title">Shaping Tomorrow's Cities and Society Today</h2>
-    </div>
-    <div class="news-grid">
-      <a href="civitasnews.html" class="news-card-link reveal">
-        <article class="news-card">
-          <div class="img-wrap"><img src="assets/img/4c2b77_1a581db0f2724bce843c8c5ecccda42e-mv2.jpeg" alt="AI and the Fight Against Poverty article cover" loading="lazy"></div>
-          <div class="body">
-            <span class="cat" data-i18n="home.news_cat">Article</span>
-            <h3 data-i18n="home.news1_title">AI and the Fight Against Poverty: Friend or Foe?</h3>
-            <p class="meta" data-i18n="home.news1_author">By Daniel R. Schnaider</p>
-          </div>
-        </article>
+      <a class="built-row" href="https://www.amazon.com/Mobilidade-5-0-tecnologia-transporte-Portuguese-ebook/dp/B0DK219N8R/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+        <div class="built-ic">📖</div>
+        <div class="built-txt"><b data-i18n="home.built.r3_t">Book — Mobility 5.0</b><span data-i18n-html="home.built.r3_d_html">A published work on the future of mobility within the PRIME framework. <span style="color:var(--green-deep);font-weight:600">Available on Amazon →</span></span></div>
+        <span class="pill published" data-i18n="home.built.pill_live">Live</span>
       </a>
-      <a href="civitasnews.html" class="news-card-link reveal reveal-delay-1">
-        <article class="news-card">
-          <div class="img-wrap"><img src="assets/img/4c2b77_48d1bd4971b34a36b81ba951e1040850-mv2.jpg" alt="Culture as a Determining Factor article cover" loading="lazy"></div>
-          <div class="body">
-            <span class="cat" data-i18n="home.news_cat">Article</span>
-            <h3 data-i18n="home.news2_title">Culture as a Determining Factor of Success: Can It Be Influenced?</h3>
-            <p class="meta" data-i18n="home.news2_author">By Daniel R. Schnaider</p>
-          </div>
-        </article>
-      </a>
-      <a href="civitasnews.html" class="news-card-link reveal reveal-delay-2">
-        <article class="news-card">
-          <div class="img-wrap"><img src="assets/img/2ba95a_c5d9d8d8c8b4436da2326999a346d7dd-mv2.jpeg" alt="From Guesswork to Evidence article cover" loading="lazy"></div>
-          <div class="body">
-            <span class="cat" data-i18n="home.news_cat">Article</span>
-            <h3 data-i18n="home.news3_title">From Guesswork to Evidence: When Data Steers the Course to Decisions</h3>
-            <p class="meta" data-i18n="home.news3_meta">By Daniel R. Schnaider · December 31, 2024</p>
-          </div>
-        </article>
-      </a>
+      <div class="built-row is-build">
+        <div class="built-ic">⚡</div>
+        <div class="built-txt"><b data-i18n="home.built.r4_t">Kairós — the coordination platform</b><span data-i18n="home.built.r4_d">The flagship engine connecting needs, resources, people, and outcomes. Core engine and flagship apps in active development.</span></div>
+        <span class="pill building" data-i18n="home.built.pill_in_dev">In development</span>
+      </div>
+      <div class="built-row">
+        <div class="built-ic">🎙</div>
+        <div class="built-txt"><b data-i18n="home.built.r5_t">CivitasNews &amp; Publications</b><span data-i18n="home.built.r5_d">Articles, interviews, essays, and frameworks on innovation, governance, and the path beyond poverty.</span></div>
+        <span class="pill published" data-i18n="home.built.pill_live">Live</span>
+      </div>
+      <div class="built-row">
+        <div class="built-ic">🤝</div>
+        <div class="built-txt"><b data-i18n="home.built.r6_t">Partnerships</b><span data-i18n="home.built.r6_d">Founding partners include FIAP and Internexum — collaborating on research, technology, and federation building.</span></div>
+        <span class="pill published" data-i18n="home.built.pill_active">Active</span>
+      </div>
+      <div class="built-row">
+        <div class="built-ic">🏛</div>
+        <div class="built-txt"><b data-i18n="home.built.r7_t">Governmental Meetings</b><span data-i18n="home.built.r7_d">Ongoing dialogues with City and State to explore ZAPE pilots.</span></div>
+        <span class="pill published" data-i18n="home.built.pill_active">Active</span>
+      </div>
     </div>
-    <div style="text-align:center;margin-top:2.5rem;">
-      <a href="civitasnews.html" class="btn btn-dark" data-i18n="home.news_viewall">View all content</a>
+
+    <div style="text-align:center; margin-top:2.5rem">
+      <a href="vision.html" class="btn btn-ghost" data-i18n="home.built.report_link">Read the full progress report →</a>
     </div>
   </div>
 </section>
 
-<!-- ─── Newsletter ─── -->
-<section class="section reveal">
-  <div class="container">
-    <div class="newsletter">
-      <h2 data-i18n="home.newsletter_title">Stay updated with PRIME Society</h2>
-      <p style="color:var(--text-muted);" data-i18n="home.newsletter_subtitle">Subscribe to receive the latest articles, research and announcements.</p>
-      <form method="post">
-        <input type="email" data-i18n-placeholder="home.newsletter_placeholder" placeholder="Enter your email here" required>
-        <button type="submit" class="btn btn-primary" data-i18n="home.newsletter_cta">Sign Up</button>
+<!-- ───────── 5. Mission Domains + ZAPE ───────── -->
+<section class="section" id="domains">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow center-eb" data-i18n="home.domains.eyebrow">Initiatives in design</span>
+      <h2 data-i18n="home.domains.title">One platform, ten mission domains.</h2>
+      <p class="lead" data-i18n="home.domains.lead">The PRIME initiatives organize into ten interconnected mission domains. Each one is a coordinated answer to a specific dimension of poverty — and together, they cover the full territory.</p>
+    </div>
+    <div class="dom10-grid reveal">
+      <article class="dom10"><div class="di">🌾</div><h4 data-i18n="home.domains.d1_h">Food</h4><p data-i18n="home.domains.d1_p">Connect surplus, donations, suppliers, logistics, and families to reduce hunger and food waste.</p></article>
+      <article class="dom10"><div class="di">🏠</div><h4 data-i18n="home.domains.d2_h">Housing</h4><p data-i18n="home.domains.d2_p">Coordinate shelter, repairs, temporary housing, services, and local support for people in housing insecurity.</p></article>
+      <article class="dom10"><div class="di">🩺</div><h4 data-i18n="home.domains.d3_h">Health</h4><p data-i18n="home.domains.d3_p">Connect people with preventive care, treatment pathways, medicines, mental health support, and community health services.</p></article>
+      <article class="dom10"><div class="di">📚</div><h4 data-i18n="home.domains.d4_h">Education</h4><p data-i18n="home.domains.d4_p">Match students, families, schools, mentors, courses, materials, and learning support to improve opportunity.</p></article>
+      <article class="dom10"><div class="di">💼</div><h4 data-i18n="home.domains.d5_h">Employment</h4><p data-i18n="home.domains.d5_p">Build pathways from unemployment or informality to skills, work, income, entrepreneurship, and financial stability.</p></article>
+      <article class="dom10"><div class="di">🌱</div><h4 data-i18n="home.domains.d6_h">Environment</h4><p data-i18n="home.domains.d6_p">Coordinate local action around waste, recycling, climate resilience, green areas, water, and sustainable infrastructure.</p></article>
+      <article class="dom10"><div class="di">🗳</div><h4 data-i18n="home.domains.d7_h">Civic</h4><p data-i18n="home.domains.d7_p">Mobilize citizens, volunteers, communities, NGOs, and local leaders around concrete collective-action missions.</p></article>
+      <article class="dom10"><div class="di">🏛</div><h4 data-i18n="home.domains.d8_h">Governance</h4><p data-i18n="home.domains.d8_p">Help institutions coordinate policies, programs, budgets, accountability, standards, and measurable public outcomes.</p></article>
+      <article class="dom10"><div class="di">📊</div><h4 data-i18n="home.domains.d9_h">Data</h4><p data-i18n="home.domains.d9_p">Create the evidence layer: mapping needs, resources, actions, outcomes, gaps, risks, and what actually works.</p></article>
+      <article class="dom10"><div class="di">🚨</div><h4 data-i18n="home.domains.d10_h">Emergency</h4><p data-i18n="home.domains.d10_p">Coordinate rapid response for crises involving food, shelter, health, safety, logistics, donations, and volunteers.</p></article>
+    </div>
+
+    <!-- ZAPE — the territorial container -->
+    <div class="zape reveal">
+      <div class="zi">🌍</div>
+      <div class="zb">
+        <div class="zt" data-i18n="home.zape.eyebrow">The territorial deployment model</div>
+        <h3 data-i18n="home.zape.title">ZAPE — Zone for Accelerated Poverty Eradication</h3>
+        <p data-i18n="home.zape.lead">A defined territory where PRIME Society coordinates all ten mission domains through Kairós to systematically reduce — and ultimately eliminate — poverty.</p>
+      </div>
+      <a href="vision.html#zape" class="btn btn-terra" data-i18n="home.zape.cta">Learn about ZAPE →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 6. Why we exist (single quote) ───────── -->
+<section class="section" style="background:var(--paper)" id="why">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow center-eb" data-i18n="home.why.eyebrow">Why we exist</span>
+      <h2 data-i18n="home.why.title">The thinking behind the work.</h2>
+    </div>
+    <div class="single-q reveal">
+      <div class="qmark">“</div>
+      <blockquote data-i18n="home.why.quote">Humanity's greatest challenges are of its own making. It's hard to believe that the very governance structures that enabled these problems can be trusted to solve them.</blockquote>
+      <div class="who">
+        <span class="av" style="width:52px;height:52px;background-image:url('assets/img/daniel-schnaider.png');background-size:cover;background-position:center;"></span>
+        <div><b>Daniel R. Schnaider</b><span data-i18n="home.why.author_role">Co-founder, PRIME Society</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 7. Get Involved — 7 audiences ───────── -->
+<section class="section impact" id="involved">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow center-eb" data-i18n="home.involved.eyebrow">Join us at the founding moment</span>
+      <h2 data-i18n="home.involved.title">Find your role in the federation.</h2>
+      <p class="lead" data-i18n="home.involved.lead">PRIME Society is taking shape. Whether you can contribute one hour, one skill, one resource, or one institution, there is a role for you in building coordinated solutions to poverty.</p>
+    </div>
+
+    <div class="aud-grid reveal">
+      <article class="aud">
+        <div class="ai">❤️</div>
+        <h4 data-i18n="home.involved.a1_h">Donor</h4>
+        <p data-i18n="home.involved.a1_p">Fund the building of Kairós, the open standard, and the first ZAPE pilots.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="Donor" data-i18n="home.involved.a1_cta">Fund the work →</a></div>
+      </article>
+      <article class="aud">
+        <div class="ai">👤</div>
+        <h4 data-i18n="home.involved.a2_h">Citizen</h4>
+        <p data-i18n="home.involved.a2_p">Bring PRIME Society to your community and join the federation locally.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="Citizen" data-i18n="home.involved.a2_cta">Join locally →</a></div>
+      </article>
+      <article class="aud">
+        <div class="ai">✋</div>
+        <h4 data-i18n="home.involved.a3_h">Volunteer</h4>
+        <p data-i18n="home.involved.a3_p">Offer your time, skills, or expertise to a pilot, a publication, or the platform.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="Volunteer" data-i18n="home.involved.a3_cta">Offer your time →</a></div>
+      </article>
+      <article class="aud">
+        <div class="ai">🏢</div>
+        <h4 data-i18n="home.involved.a4_h">Company</h4>
+        <p data-i18n="home.involved.a4_p">Partner on coordinated impact, sponsorship, in-kind support, or co-development.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="Company" data-i18n="home.involved.a4_cta">Partner with PRIME →</a></div>
+      </article>
+    </div>
+    <div class="aud-row2 reveal">
+      <article class="aud">
+        <div class="ai">🏛</div>
+        <h4 data-i18n="home.involved.a5_h">City / government</h4>
+        <p data-i18n="home.involved.a5_p">Explore a ZAPE pilot — a coordinated way to reduce poverty in your territory.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="City / government" data-i18n="home.involved.a5_cta">Explore a pilot →</a></div>
+      </article>
+      <article class="aud">
+        <div class="ai">🎓</div>
+        <h4 data-i18n="home.involved.a6_h">Researcher / academic</h4>
+        <p data-i18n="home.involved.a6_p">Collaborate on the PRIME model, publications, frameworks, and measurement research.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="Researcher / academic" data-i18n="home.involved.a6_cta">Collaborate →</a></div>
+      </article>
+      <article class="aud">
+        <div class="ai">⚙️</div>
+        <h4 data-i18n="home.involved.a7_h">Builder / developer</h4>
+        <p data-i18n="home.involved.a7_p">Help build Kairós apps and contribute to the open standard.</p>
+        <div class="ac"><a class="btn-text" href="#join-form" data-interest="Builder / developer" data-i18n="home.involved.a7_cta">Help build →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 8. Vision teaser ───────── -->
+<section class="vision-teaser">
+  <div class="wrap reveal">
+    <span class="eyebrow center-eb" data-i18n="home.vision_teaser.eyebrow">For the deeper layer</span>
+    <h3 data-i18n="home.vision_teaser.title">Discover the deeper vision behind PRIME Society.</h3>
+    <p data-i18n="home.vision_teaser.p">A practical architecture for communities, cities, and institutions designed around measurable progress — the PRIME model, the principles, ZAPE territories, and the long-term thesis for a poverty-free future.</p>
+    <a href="vision.html" class="btn btn-primary" data-i18n="cta.explore_prime_model">Explore the PRIME Model →</a>
+  </div>
+</section>
+
+<!-- ───────── 9. Newsletter ───────── -->
+<section class="section news">
+  <div class="wrap news-box">
+    <div class="reveal">
+      <h2 data-i18n="home.news.title">Stay close to the work.</h2>
+      <p data-i18n="home.news.p">Receive new PRIME Society publications, Kairós updates, impact stories, and opportunities to help build coordinated solutions to poverty.</p>
+    </div>
+    <div class="reveal">
+      <!-- GOOGLE FORM INTEGRATION:
+           1. Create a Google Form with one field: Email
+           2. Change action="#" below to the form's POST URL (replace /viewform with /formResponse)
+           3. Change name="email" to name="entry.XXXXX" (the Google Form field ID)
+           4. Add target="hidden-iframe" to the form tag
+      -->
+      <form class="news-form" id="newsletter-form" action="#" method="POST" onsubmit="return handleNewsletter(event)">
+        <input type="email" name="email" data-i18n-placeholder="home.news.placeholder" placeholder="you@example.com" required>
+        <button class="btn btn-terra" type="submit" data-i18n="cta.subscribe">Subscribe</button>
       </form>
-      <div class="form-msg" data-newsletter-thanks="home.newsletter_thanks"></div>
+      <div class="form-msg" id="newsletter-msg" style="color:#fff;min-height:1.4em;margin-top:.75rem;text-align:left"></div>
     </div>
   </div>
 </section>
 
-<!-- ─── Teal CTA Donate ─── -->
-<section class="cta-section" aria-labelledby="cta-heading">
-  <div class="container">
-    <span class="eyebrow-light" style="color:rgba(255,255,255,0.7);" data-i18n="home.cta_eyebrow">Make an Impact</span>
-    <h2 id="cta-heading" data-i18n="home.cta_title">Every contribution builds a poverty-free world.</h2>
-    <p data-i18n="home.cta_subtitle">Support the infrastructure that coordinates time, goods, capital and trust across 40 civic apps. Your donation funds the tools that make change measurable.</p>
-    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-      <a href="donate.html" class="btn btn-lg" style="background:#fff;color:var(--teal);font-weight:700;" data-i18n="home.cta_btn_donate">Donate Now</a>
-      <a href="contact.html" class="btn btn-lg btn-outline" data-i18n="home.cta_btn_join">Join the Federation</a>
+<!-- ───────── 10. Join the Federation form ───────── -->
+<section class="section" id="join-form" style="background:var(--paper)">
+  <div class="wrap" style="max-width: 760px">
+    <div class="section-head center reveal">
+      <span class="eyebrow center-eb" data-i18n="home.join.eyebrow">Join the federation</span>
+      <h2 data-i18n="home.join.title">Tell us how you'd like to contribute.</h2>
+      <p class="lead" data-i18n="home.join.lead">Whichever role fits you best — we'll be in touch with concrete ways to get involved.</p>
     </div>
-  </div>
-</section>
 
-<!-- ─── Footer ─── -->
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="brand"><img src="assets/img/2ba95a_a7b729c43ae545a69076a2e3129ac46a-mv2.png" alt="PRIME Society" loading="lazy"></div>
-        <p data-i18n="footer.tagline">Innovation for a Poverty-Free Future.</p>
-        <div class="socials" style="margin-top:1rem;">
-          <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.3 2.2.4.5.2 1 .5 1.4 1 .4.4.7.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.8-.4 2.2-.2.5-.5 1-1 1.4-.4.4-.9.7-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.3-2.2-.4-.5-.2-1-.5-1.4-1-.4-.4-.7-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-1.8.4-2.2.2-.5.5-1 1-1.4.4-.4.9-.7 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 2.2c-3.1 0-3.5 0-4.7.1-1 .1-1.5.2-1.9.3-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.4-.3.9-.3 1.9-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.5.3 1.9.2.5.4.8.7 1.1.3.3.6.5 1.1.7.4.1.9.3 1.9.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.5-.2 1.9-.3.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.4.3-.9.3-1.9.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.5-.3-1.9-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.4-.1-.9-.3-1.9-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.7a3.9 3.9 0 1 1 0 7.8 3.9 3.9 0 0 1 0-7.8zm0 6.4a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm5-6.6a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0z"/></svg></a>
-          <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M13.5 21.5v-8.6h2.9l.4-3.4h-3.3V7.4c0-1 .3-1.7 1.7-1.7h1.8V2.7c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.5H7.1v3.4H10v8.6h3.5z"/></svg></a>
-          <a href="https://twitter.com/" aria-label="Twitter / X" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M18.2 2H21l-7 8 8.2 12h-6.4l-5-7.4L4.9 22H2.1l7.6-8.6L2 2h6.6l4.5 6.8L18.2 2zm-1 18h1.7L7.3 3.7H5.5L17.2 20z"/></svg></a>
-          <a href="https://www.tiktok.com/" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M19.5 8.4a6.5 6.5 0 0 1-3.8-1.2v7.3a5.7 5.7 0 1 1-5.7-5.7c.3 0 .6 0 .9.1v2.9a2.8 2.8 0 1 0 1.9 2.7V2h2.8a3.9 3.9 0 0 0 3.9 3.9v2.5z"/></svg></a>
+    <div class="join-card reveal">
+      <!-- GOOGLE FORM INTEGRATION:
+           1. Create a Google Form with fields: Name, Email, Interest, Message (optional)
+           2. Change action="#" to the form's POST URL (replace /viewform with /formResponse)
+           3. Change each name="entry.X" to the matching Google Form field IDs
+           4. Optionally add target="hidden-iframe" so the user stays on this page
+      -->
+      <form id="join-form-el" action="#" method="POST" onsubmit="return handleJoin(event)">
+        <div class="form-grid">
+          <div class="field">
+            <label for="join-name" data-i18n="home.join.name_label">Your name</label>
+            <input type="text" id="join-name" name="entry.name" required>
+          </div>
+          <div class="field">
+            <label for="join-email" data-i18n="home.join.email_label">Email</label>
+            <input type="email" id="join-email" name="entry.email" required>
+          </div>
+          <div class="field full">
+            <label for="join-interest" data-i18n="home.join.interest_label">I'd like to contribute as a…</label>
+            <input type="text" id="join-interest" name="entry.interest" data-i18n-placeholder="home.join.interest_placeholder" placeholder="Click one of the roles above, or type your own">
+            <div class="chip-row" id="interest-chips">
+              <button type="button" class="chip" data-chip="Donor" data-i18n="home.join.chip_donor">Donor</button>
+              <button type="button" class="chip" data-chip="Citizen" data-i18n="home.join.chip_citizen">Citizen</button>
+              <button type="button" class="chip" data-chip="Volunteer" data-i18n="home.join.chip_volunteer">Volunteer</button>
+              <button type="button" class="chip" data-chip="Company" data-i18n="home.join.chip_company">Company</button>
+              <button type="button" class="chip" data-chip="City / government" data-i18n="home.join.chip_city">City / government</button>
+              <button type="button" class="chip" data-chip="Researcher / academic" data-i18n="home.join.chip_researcher">Researcher / academic</button>
+              <button type="button" class="chip" data-chip="Builder / developer" data-i18n="home.join.chip_builder">Builder / developer</button>
+            </div>
+          </div>
+          <div class="field full">
+            <label for="join-org" data-i18n="home.join.org_label">Organization (optional)</label>
+            <input type="text" id="join-org" name="entry.org">
+          </div>
+          <div class="field full">
+            <label for="join-message" data-i18n="home.join.message_label">Anything else? (optional)</label>
+            <textarea id="join-message" name="entry.message" rows="3" data-i18n-placeholder="home.join.message_placeholder" placeholder="Tell us a bit about what you'd like to do."></textarea>
+          </div>
         </div>
-      </div>
-      <div>
-        <h4 data-i18n="footer.explore_title">Explore</h4>
-        <ul>
-          <li><a href="about.html" data-i18n="footer.l_about">About</a></li>
-          <li><a href="index.html#prime-tools" data-i18n="footer.l_tools">PRIME Tools</a></li>
-          <li><a href="civitasnews.html" data-i18n="footer.l_content">Content</a></li>
-          <li><a href="contact.html" data-i18n="footer.l_contact">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-i18n="footer.engage_title">Engage</h4>
-        <ul>
-          <li><a href="engage.html" data-i18n="footer.l_engage">Engage</a></li>
-          <li><a href="donate.html" data-i18n="footer.l_donate">Donate</a></li>
-          <li><a href="kairos.html" data-i18n="footer.l_kairos">Kairos</a></li>
-          <li><a href="intro.html" data-i18n="footer.l_intro">Intro</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 data-i18n="footer.contact_title">Contact</h4>
-        <ul>
-          <li><a href="mailto:contact@primesociety.network">contact@primesociety.network</a></li>
-        </ul>
-      </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-terra btn-lg" data-i18n="home.join.send">Send</button>
+        </div>
+        <div class="form-msg" id="join-msg"></div>
+      </form>
     </div>
-    <div class="copyright">
-      <span>© <span id="year"></span> <span data-i18n="footer.copyright">PRIME Society. Innovation for a Poverty-Free Future.</span></span>
-      <div class="footer-live">
-        <span class="footer-live-dot"></span>
-        <span data-i18n="footer.live">Live on Kairos</span>
+  </div>
+</section>
+
+<!-- Hidden iframe for Google Forms submission (so the user doesn't leave the page) -->
+<iframe name="hidden-iframe" style="display:none" aria-hidden="true"></iframe>
+
+<!-- ───────── Footer ───────── -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#"><img class="mark" src="assets/img/prime-mark.png" alt=""> PRIME Society</a>
+        <p style="max-width:22rem;font-size:.92rem" data-i18n="footer.tagline">Innovation for a Poverty-Free Future.</p>
       </div>
+      <div><h5 data-i18n="footer.explore">Explore</h5><ul><li><a href="#kairos" data-i18n="nav.kairos">Kairós</a></li><li><a href="#built" data-i18n="nav.work">Our work</a></li><li><a href="#domains" data-i18n="nav.initiatives">Initiatives</a></li><li><a href="publications.html" data-i18n="nav.publications">Publications</a></li><li><a href="vision.html" data-i18n="nav.vision">Vision &amp; Model</a></li></ul></div>
+      <div><h5 data-i18n="footer.engage">Engage</h5><ul><li><a href="#involved" data-i18n="footer.donate">Donate</a></li><li><a href="#involved" data-i18n="footer.partner">Partner</a></li><li><a href="#involved" data-i18n="footer.volunteer">Volunteer</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul></div>
+      <div><h5 data-i18n="footer.connect">Connect</h5><ul><li><a href="#" data-i18n="footer.instagram">Instagram</a></li><li><a href="#" data-i18n="footer.linkedin">LinkedIn</a></li><li><a href="#" data-i18n="footer.newsletter">Newsletter</a></li></ul></div>
+    </div>
+    <div class="foot-base">
+      <span data-i18n="footer.copyright">© 2026 PRIME Society — Innovation for a Poverty-Free Future.</span>
+      <span data-i18n="footer.established">Est. 2024</span>
     </div>
   </div>
 </footer>
 
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-<script src="assets/js/i18n.js"></script>
-<script src="assets/js/main.js"></script>
+<script>
+  const head = document.getElementById('head');
+  addEventListener('scroll', () => head.classList.toggle('scrolled', scrollY > 10));
+  const io = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // --- Audience CTA → pre-fill the join form interest field, then scroll
+  document.querySelectorAll('[data-interest]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      const v = el.dataset.interest;
+      const input = document.getElementById('join-interest');
+      if (input) { input.value = v; }
+      syncChips(v);
+    });
+  });
+
+  // --- Interest chip selection
+  function syncChips(value) {
+    document.querySelectorAll('#interest-chips .chip').forEach(c => {
+      c.classList.toggle('active', c.dataset.chip === value);
+    });
+  }
+  document.querySelectorAll('#interest-chips .chip').forEach(c => {
+    c.addEventListener('click', () => {
+      const v = c.dataset.chip;
+      document.getElementById('join-interest').value = v;
+      syncChips(v);
+    });
+  });
+  // Keep chips synced if user types manually
+  const interestInput = document.getElementById('join-interest');
+  if (interestInput) interestInput.addEventListener('input', () => syncChips(interestInput.value));
+
+  // --- Newsletter submit (client-side thank-you until Google Form is wired)
+  function handleNewsletter(e) {
+    // When wired to Google Forms, REMOVE this preventDefault and let the form POST naturally
+    e.preventDefault();
+    var msg = (window.PRIME_I18N && window.PRIME_I18N.t('home.news.thanks')) || '✓ Thanks — you\'ll hear from us soon.';
+    document.getElementById('newsletter-msg').textContent = msg;
+    document.getElementById('newsletter-form').reset();
+    return false;
+  }
+  // --- Join form submit
+  function handleJoin(e) {
+    // When wired to Google Forms, REMOVE this preventDefault and let the form POST naturally
+    e.preventDefault();
+    var msg = (window.PRIME_I18N && window.PRIME_I18N.t('home.join.thanks')) || '✓ Thank you — we\'ll be in touch about your role in the federation.';
+    document.getElementById('join-msg').textContent = msg;
+    document.getElementById('join-form-el').reset();
+    syncChips('');
+    return false;
+  }
+</script>
+<script src="i18n.js" defer></script>
 </body>
 </html>

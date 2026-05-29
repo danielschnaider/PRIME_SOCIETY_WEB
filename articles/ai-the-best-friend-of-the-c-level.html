@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI, the Best Friend of the C-Level — PRIME Society</title>
+<script>(function(){var THIS='en';var p=null;try{p=localStorage.getItem('prime-lang');}catch(e){}if(!p){try{localStorage.setItem('prime-lang',THIS);}catch(e){}p=THIS;}if(p!==THIS){var f=location.pathname.split('/').pop();var b=f.replace(/\.(pt|es)\.html$/,'.html');var t=(p==='en')?b:b.replace(/\.html$/,'.'+p+'.html');if(t!==f){location.replace(t);}}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../proto.css">
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/prime-mark.png">
+</head>
+<body>
+
+<header class="site-head" id="head">
+  <div class="wrap nav-bar">
+    <a class="brand" href="../index.html"><img class="mark" src="../assets/img/prime-mark.png" alt=""> PRIME Society</a>
+    <nav class="nav-links">
+      <a href="../kairos.html">Kairós</a>
+      <a href="../index.html#built">Our work</a>
+      <a href="../index.html#domains">Initiatives</a>
+      <a href="../publications.html" style="color:var(--ink)">Publications</a>
+      <a href="../vision.html">Vision & Model</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="../index.html#involved" class="btn btn-primary">Get involved</a>
+      <div class="lang-switch"><button class="lang-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Choose language"><svg class="lang-globe" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2 10h16" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M10 2c2.5 2 2.5 14 0 16" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M10 2c-2.5 2-2.5 14 0 16" stroke="currentColor" stroke-width="1.2" fill="none"/></svg><span class="lang-current">English</span><svg class="lang-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="lang-menu" role="menu"><button class="lang-option" role="menuitem" type="button" data-go-lang="en"><span class="lang-name">English</span><span class="lang-code">EN</span></button><button class="lang-option" role="menuitem" type="button" data-go-lang="pt"><span class="lang-name">Português</span><span class="lang-code">PT</span></button><button class="lang-option" role="menuitem" type="button" data-go-lang="es"><span class="lang-name">Español</span><span class="lang-code">ES</span></button></div></div>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="article-hero">
+  <div class="wrap">
+    <a class="article-back" href="../publications.html">← All publications</a>
+    <span class="eyebrow">Article · Dec 4, 2024</span>
+    <h1>AI, the Best Friend of the C-Level</h1>
+    <div class="byline">
+      <img src="../assets/img/daniel-schnaider.png" alt="Daniel R. Schnaider">
+      <div>
+        <span class="author">Daniel R. Schnaider</span>
+        <span class="pub-date">President, PRIME Society</span>
+      </div>
+      <span class="read-time">6 min read</span>
+    </div>
+    
+  </div>
+</section>
+
+<div class="article-body wrap">
+<blockquote><p>"The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge." — Stephen Hawking</p></blockquote>
+
+  <p>In a conversation with a director of a global telecommunications giant, he complained that the supplier's software analytics products were not providing the added value he needed in the form of insights. He expected an answer, and the truth was that the information existed, but for internal reasons, his team did not want to reveal it and instead preferred to make the company the scapegoat. Unfortunately, I believe this scenario repeats itself in various places under different circumstances. After all, who would want to show their boss that their results are compromised, to say the least?</p>
+
+  <p>The result of this type of attitude is that the decision-maker lacks reliable information to make decisions, or in other words, to perform their function. This happens because we have a legacy of dashboards, systems with graphs, reports, and KPIs coming from a variety of systems. To present the data in the way the leader needs, it is often necessary to manually consolidate these sources of information; other times, it's necessary to understand the data's semantics and have a basic grasp of numbers, graphs, and time series. How many people leave university with such knowledge? How many employees are actually trained by the company to perform this task? I believe, like me, you already know the answer.</p>
+
+  <p>Let's start with data <strong>consolidation</strong>. The moment it's done manually, we are subject to human errors, negligence, and manipulation. In one real case, an employee centralized services with a single supplier, who happened to be related to his own family, and falsely changed the reports splitting contracts among various companies to avoid raising suspicions.</p>
+
+  <p>The <strong>semantics</strong> issue "kills" any unprepared employee. For example: <em>"Are the revenue figures presented on a cash or accrual basis?"</em> — Silence in the room. <em>"Did you include logistics costs and sales commissions in COGS or SG&amp;A?"</em> — Cold sweat. <em>"Was R&amp;D capitalized, or is it operational expense?"</em> — Panic! <em>"What does the benchmark in our sector show regarding the last three questions?"</em> — At the end of the meeting, the employee is already looking for jobs on LinkedIn.</p>
+
+  <p>Lastly, the <strong>numbers</strong>. In a company that monitored the mileage of its vehicles electronically, a graph showed the data going up and then down. There was just one problem: a vehicle's odometer doesn't roll back, not even while driving in reverse. There's no way for the mileage to decrease unless there's improper interference, like, for instance, if someone used the company vehicle without authorization and tried to cover their tracks. However, the employees responsible for reviewing these dashboards and providing data analysis lacked the analytical sensitivity to notice the issue. What's the point of having data if you can't turn it into information and extract insights?</p>
+
+  <p>In the new AI era, all of this will change, bringing unprecedented consequences. For example, the CEO won't need to ask for the report to be manually consolidated because the machine will do it automatically with less risk. In our case, he would have known about the fraud in the procurement department. The CFO could ask the AI where the logistics costs and sales commissions of a specific subsidiary are allocated instead of wasting time questioning employees who should have that information readily available but don't. As for the interpretation of numbers, AI could offer descriptive analysis, helping employees understand what a number, graph, or KPI means and what needs to be done — without allowing financial losses to accumulate, sometimes over decades.</p>
+
+  <p>Make no mistake, what may seem like paradise for executives could turn into a nightmare for employees and bring lasting social impacts. According to a Gallup research study, only 21% of employees worldwide are engaged in their work. Any experienced executive or consultant knows this, but it's not always easy for a human to find "the needle in the haystack," especially when there's a lot of hay.</p>
+
+  <p>Imagine AI talking to the VP of a business unit: <em>"Sir, your sales team has 60 people, but only 5 account for 99% of the sales. If you terminate the other 55, you could increase profitability and, consequently, your bonus, or hire better people who would further boost revenue. How do you wish to proceed?"</em></p>
+
+  <p>Another concern for the C-Level is the issue of hidden inefficiency. A case I witnessed involved an employee working remotely for 7 years, receiving a salary without working a single day. Due to lack of oversight, there was no consistency in the system records, allowing the error to persist. But this is neither new nor uncommon. Carl Icahn, an American investor and billionaire known for his aggressive corporate interventions, mentioned in an interview with Investor Talk that when he acquired ACF Industries in 1984, he fired an entire building full of employees, and his action, rather than negatively impacting the company, actually optimized it. The former CEO of P&amp;G, Bob McDonald, also suggested that it's possible — and more feasible — to enhance innovation and achieve goals through leaner, more focused teams rather than large traditional structures. For a company to sustain itself, it needs to make money, and for that, it needs engaged employees. According to Gallup's State of the Global Workplace: 2023 Report, disengaged employees cost the world $8.8 trillion in lost productivity, equivalent to 9% of global GDP.</p>
+
+  <p>AI may also recognize other patterns. Another Gallup study shows that only 35% of employees in American companies feel their skills are fully utilized. This could be the result of poor management or because people are not in the right roles. A change in structure, reassignment of people, or replacement of managers could increase productivity without raising — and perhaps even reducing — costs.</p>
+
+  <p>The question is: what will hundreds of millions of newly unemployed people do when the technology is fine-tuned? For that, I recommend reading my article "Human Resources in the AI Era," where I propose a possible solution at a global level. In individual cases, each of them will have their coach app powered by AI, just like a digital twin of Tony Robbins, for only $9.99 a month — of course.</p>
+
+  <p>To be prepared for the opportunities and threats that may impact you and the planet, we invite you to dive into this vision and explore how AI can be a powerful ally in increasing the productivity of the global economy. We are talking about a potential growth of trillions of dollars per year. My colleagues, global leaders, and I will be eagerly waiting to discuss the current challenges societies face and their solutions at the Horasis Global Meeting. This event, which will be hosted for the first time in South America, will take place from October 25th to 26th in Vitória, Brazil.</p>
+</div>
+
+<div class="article-foot-back">
+  <a class="article-back" href="../publications.html">← All publications</a>
+</div>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="../index.html"><img class="mark" src="../assets/img/prime-mark.png" alt=""> PRIME Society</a>
+        <p style="max-width:22rem;font-size:.92rem">Innovation for a Poverty-Free Future.</p>
+      </div>
+      <div><h5>Explore</h5><ul><li><a href="../kairos.html">Kairós</a></li><li><a href="../index.html#built">Our work</a></li><li><a href="../index.html#domains">Initiatives</a></li><li><a href="../publications.html">Publications</a></li><li><a href="../vision.html">Vision & Model</a></li></ul></div>
+      <div><h5>Engage</h5><ul><li><a href="../index.html#involved">Donate</a></li><li><a href="../index.html#involved">Partner</a></li><li><a href="../index.html#involved">Volunteer</a></li><li><a href="../contact.html">Contact</a></li></ul></div>
+      <div><h5>Connect</h5><ul><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">Newsletter</a></li></ul></div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 PRIME Society — Innovation for a Poverty-Free Future.</span>
+      <span>Est. 2024</span>
+    </div>
+  </div>
+</footer>
+
+<script>var head=document.getElementById('head');addEventListener('scroll',function(){head.classList.toggle('scrolled',scrollY>10);});var BASE='ai-the-best-friend-of-the-c-level';document.querySelectorAll('[data-go-lang]').forEach(function(b){b.addEventListener('click',function(){var L=b.getAttribute('data-go-lang');try{localStorage.setItem('prime-lang',L);}catch(e){}location.href=(L==='en')?BASE+'.html':BASE+'.'+L+'.html';});});var sw=document.querySelector('.lang-switch');var tg=sw&&sw.querySelector('.lang-trigger');if(tg){tg.addEventListener('click',function(e){e.stopPropagation();var o=sw.classList.toggle('open');tg.setAttribute('aria-expanded',o?'true':'false');});document.addEventListener('click',function(e){if(!sw.contains(e.target)){sw.classList.remove('open');tg.setAttribute('aria-expanded','false');}});document.addEventListener('keydown',function(e){if(e.key==='Escape'){sw.classList.remove('open');tg.setAttribute('aria-expanded','false');}});}</script>
+</body>
+</html>

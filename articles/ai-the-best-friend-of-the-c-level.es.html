@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA, la Mejor Amiga del C-Level — PRIME Society</title>
+<script>(function(){var THIS='es';var p=null;try{p=localStorage.getItem('prime-lang');}catch(e){}if(!p){try{localStorage.setItem('prime-lang',THIS);}catch(e){}p=THIS;}if(p!==THIS){var f=location.pathname.split('/').pop();var b=f.replace(/\.(pt|es)\.html$/,'.html');var t=(p==='en')?b:b.replace(/\.html$/,'.'+p+'.html');if(t!==f){location.replace(t);}}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../proto.css">
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/prime-mark.png">
+</head>
+<body>
+
+<header class="site-head" id="head">
+  <div class="wrap nav-bar">
+    <a class="brand" href="../index.html"><img class="mark" src="../assets/img/prime-mark.png" alt=""> PRIME Society</a>
+    <nav class="nav-links">
+      <a href="../kairos.html">Kairós</a>
+      <a href="../index.html#built">Nuestro trabajo</a>
+      <a href="../index.html#domains">Iniciativas</a>
+      <a href="../publications.html" style="color:var(--ink)">Publicaciones</a>
+      <a href="../vision.html">Visión y Modelo</a>
+      <a href="../contact.html">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="../index.html#involved" class="btn btn-primary">Participa</a>
+      <div class="lang-switch"><button class="lang-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Elegir idioma"><svg class="lang-globe" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2 10h16" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M10 2c2.5 2 2.5 14 0 16" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M10 2c-2.5 2-2.5 14 0 16" stroke="currentColor" stroke-width="1.2" fill="none"/></svg><span class="lang-current">Español</span><svg class="lang-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="lang-menu" role="menu"><button class="lang-option" role="menuitem" type="button" data-go-lang="en"><span class="lang-name">English</span><span class="lang-code">EN</span></button><button class="lang-option" role="menuitem" type="button" data-go-lang="pt"><span class="lang-name">Português</span><span class="lang-code">PT</span></button><button class="lang-option" role="menuitem" type="button" data-go-lang="es"><span class="lang-name">Español</span><span class="lang-code">ES</span></button></div></div>
+      <button class="nav-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="article-hero">
+  <div class="wrap">
+    <a class="article-back" href="../publications.html">← Todas las publicaciones</a>
+    <span class="eyebrow">Artículo · 4 dic 2024</span>
+    <h1>IA, la Mejor Amiga del C-Level</h1>
+    <div class="byline">
+      <img src="../assets/img/daniel-schnaider.png" alt="Daniel R. Schnaider">
+      <div>
+        <span class="author">Daniel R. Schnaider</span>
+        <span class="pub-date">Presidente, PRIME Society</span>
+      </div>
+      <span class="read-time">6 min de lectura</span>
+    </div>
+    <div class="ai-note" title="Traducido con IA"><svg viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10" cy="10" r="8"/><path d="M2 10h16M10 2c2.5 2 2.5 14 0 16M10 2c-2.5 2-2.5 14 0 16" /></svg><span>Traducido con IA</span></div>
+  </div>
+</section>
+
+<div class="article-body wrap">
+<blockquote><p>"El mayor enemigo del conocimiento no es la ignorancia, es la ilusión del conocimiento." — Stephen Hawking</p></blockquote>
+
+  <p>En una conversación con un director de un gigante global de las telecomunicaciones, él se quejaba de que los productos de análisis de software del proveedor no estaban entregando el valor agregado que necesitaba en forma de insights. Esperaba una respuesta, y la verdad es que la información existía, pero, por razones internas, su equipo no quería revelarla y prefería, en cambio, hacer de la empresa el chivo expiatorio. Lamentablemente, creo que este escenario se repite en diversos lugares bajo diferentes circunstancias. Después de todo, ¿quién querría mostrarle a su jefe que sus resultados están comprometidos, por decir lo menos?</p>
+
+  <p>El resultado de este tipo de actitud es que quien toma las decisiones se queda sin información confiable para decidir, o, en otras palabras, para ejercer su función. Esto sucede porque tenemos un legado de dashboards, sistemas con gráficos, informes y KPIs provenientes de una variedad de sistemas. Para presentar los datos de la forma en que el líder los necesita, a menudo es necesario consolidar manualmente estas fuentes de información; otras veces, es preciso comprender la semántica de los datos y tener un dominio básico de números, gráficos y series temporales. ¿Cuántas personas salen de la universidad con ese conocimiento? ¿Cuántos empleados son, de hecho, capacitados por la empresa para realizar esa tarea? Creo que, al igual que yo, tú ya sabes la respuesta.</p>
+
+  <p>Comencemos por la <strong>consolidación</strong> de datos. En el momento en que se hace manualmente, quedamos sujetos a errores humanos, negligencia y manipulación. En un caso real, un empleado centralizó los servicios en un único proveedor, que resultaba ser pariente de su propia familia, y alteró falsamente los informes dividiendo los contratos entre varias empresas para no levantar sospechas.</p>
+
+  <p>La cuestión de la <strong>semántica</strong> "mata" a cualquier empleado no preparado. Por ejemplo: <em>"¿Las cifras de ingresos se presentan por el régimen de caja o de devengo?"</em> — Silencio en la sala. <em>"¿Incluiste los costos de logística y las comisiones de ventas en el costo de los bienes vendidos o en los gastos administrativos y de ventas?"</em> — Sudor frío. <em>"¿El I+D se capitalizó o es un gasto operativo?"</em> — ¡Pánico! <em>"¿Qué muestra el benchmark de nuestro sector respecto a las últimas tres preguntas?"</em> — Al final de la reunión, el empleado ya está buscando vacantes en LinkedIn.</p>
+
+  <p>Por último, los <strong>números</strong>. En una empresa que monitoreaba electrónicamente el kilometraje de sus vehículos, un gráfico mostraba los datos subiendo y luego bajando. Solo había un problema: el odómetro de un vehículo no retrocede, ni siquiera al conducir en reversa. No hay forma de que el kilometraje disminuya, a menos que haya una interferencia indebida, como, por ejemplo, si alguien usara el vehículo de la empresa sin autorización e intentara encubrir sus rastros. Sin embargo, los empleados responsables de revisar estos dashboards y proporcionar el análisis de los datos carecían de la sensibilidad analítica para notar el problema. ¿De qué sirve tener datos si no puedes transformarlos en información y extraer insights?</p>
+
+  <p>En la nueva era de la IA, todo esto cambiará, trayendo consecuencias sin precedentes. Por ejemplo, el CEO no necesitará pedir que el informe se consolide manualmente, porque la máquina lo hará automáticamente con menos riesgo. En nuestro caso, él habría tenido conocimiento del fraude en el departamento de compras. El CFO podría preguntarle a la IA dónde están asignados los costos de logística y las comisiones de ventas de una subsidiaria específica, en lugar de perder tiempo interrogando a empleados que deberían tener esa información disponible de inmediato, pero no la tienen. En cuanto a la interpretación de los números, la IA podría ofrecer un análisis descriptivo, ayudando a los empleados a entender qué significa un número, un gráfico o un KPI y qué se debe hacer — sin permitir que las pérdidas financieras se acumulen, a veces a lo largo de décadas.</p>
+
+  <p>No te equivoques: lo que puede parecer un paraíso para los ejecutivos podría convertirse en una pesadilla para los empleados y traer impactos sociales duraderos. Según un estudio de Gallup, solo el 21% de los empleados en todo el mundo está comprometido con su trabajo. Cualquier ejecutivo o consultor experimentado lo sabe, pero no siempre es fácil para un humano encontrar "la aguja en el pajar", especialmente cuando hay mucho heno.</p>
+
+  <p>Imagina a la IA conversando con el VP de una unidad de negocio: <em>"Señor, su equipo de ventas tiene 60 personas, pero solo 5 representan el 99% de las ventas. Si despide a las otras 55, podría aumentar la rentabilidad y, en consecuencia, su bono, o contratar mejores personas que impulsarían aún más los ingresos. ¿Cómo desea proceder?"</em></p>
+
+  <p>Otra preocupación para el C-Level es la cuestión de la ineficiencia oculta. Un caso que presencié involucraba a un empleado que trabajaba de forma remota desde hacía 7 años, recibiendo un salario sin trabajar un solo día. Debido a la falta de supervisión, no había consistencia en los registros del sistema, lo que permitió que el error persistiera. Pero esto no es nuevo ni poco común. Carl Icahn, inversor y multimillonario estadounidense conocido por sus agresivas intervenciones corporativas, mencionó en una entrevista con Investor Talk que, cuando adquirió ACF Industries en 1984, despidió a un edificio entero lleno de empleados, y su acción, en lugar de impactar negativamente a la empresa, en realidad la optimizó. El exCEO de P&amp;G, Bob McDonald, también sugirió que es posible — y más factible — impulsar la innovación y alcanzar metas mediante equipos más reducidos y enfocados, en lugar de grandes estructuras tradicionales. Para que una empresa se sostenga, necesita ganar dinero, y, para eso, necesita empleados comprometidos. Según el State of the Global Workplace: 2023 Report de Gallup, los empleados desconectados le costaron al mundo US$ 8,8 billones en productividad perdida, el equivalente al 9% del PIB global.</p>
+
+  <p>La IA también puede reconocer otros patrones. Otro estudio de Gallup muestra que solo el 35% de los empleados en empresas estadounidenses siente que sus habilidades se aprovechan plenamente. Esto puede ser resultado de una mala gestión o del hecho de que las personas no están en los roles correctos. Un cambio en la estructura, la reasignación de personas o la sustitución de gerentes podría aumentar la productividad sin elevar — y quizás incluso reduciendo — los costos.</p>
+
+  <p>La pregunta es: ¿qué harán cientos de millones de personas recién desempleadas cuando la tecnología esté bien ajustada? Para eso, recomiendo la lectura de mi artículo "Recursos Humanos en la Era de la IA", donde propongo una posible solución a nivel global. En casos individuales, cada una de ellas tendrá su aplicación de coach impulsada por IA, como un gemelo digital de Tony Robbins, por solo US$ 9,99 al mes — por supuesto.</p>
+
+  <p>Para estar preparado ante las oportunidades y amenazas que pueden impactarte a ti y al planeta, te invitamos a sumergirte en esta visión y a explorar cómo la IA puede ser una poderosa aliada en el aumento de la productividad de la economía global. Estamos hablando de un potencial de crecimiento de billones de dólares al año. Mis colegas, líderes globales y yo estaremos ansiosos por discutir los desafíos actuales que enfrentan las sociedades y sus soluciones en el Horasis Global Meeting. Este evento, que se realizará por primera vez en América del Sur, tendrá lugar del 25 al 26 de octubre en Vitória, Brasil.</p>
+</div>
+
+<div class="article-foot-back">
+  <a class="article-back" href="../publications.html">← Todas las publicaciones</a>
+</div>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="../index.html"><img class="mark" src="../assets/img/prime-mark.png" alt=""> PRIME Society</a>
+        <p style="max-width:22rem;font-size:.92rem">Innovación para un Futuro Sin Pobreza.</p>
+      </div>
+      <div><h5>Explorar</h5><ul><li><a href="../kairos.html">Kairós</a></li><li><a href="../index.html#built">Nuestro trabajo</a></li><li><a href="../index.html#domains">Iniciativas</a></li><li><a href="../publications.html">Publicaciones</a></li><li><a href="../vision.html">Visión y Modelo</a></li></ul></div>
+      <div><h5>Participar</h5><ul><li><a href="../index.html#involved">Donar</a></li><li><a href="../index.html#involved">Asociarse</a></li><li><a href="../index.html#involved">Ser voluntario</a></li><li><a href="../contact.html">Contacto</a></li></ul></div>
+      <div><h5>Conectar</h5><ul><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">Newsletter</a></li></ul></div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 PRIME Society — Innovación para un Futuro Sin Pobreza.</span>
+      <span>Fundada en 2024</span>
+    </div>
+  </div>
+</footer>
+
+<script>var head=document.getElementById('head');addEventListener('scroll',function(){head.classList.toggle('scrolled',scrollY>10);});var BASE='ai-the-best-friend-of-the-c-level';document.querySelectorAll('[data-go-lang]').forEach(function(b){b.addEventListener('click',function(){var L=b.getAttribute('data-go-lang');try{localStorage.setItem('prime-lang',L);}catch(e){}location.href=(L==='en')?BASE+'.html':BASE+'.'+L+'.html';});});var sw=document.querySelector('.lang-switch');var tg=sw&&sw.querySelector('.lang-trigger');if(tg){tg.addEventListener('click',function(e){e.stopPropagation();var o=sw.classList.toggle('open');tg.setAttribute('aria-expanded',o?'true':'false');});document.addEventListener('click',function(e){if(!sw.contains(e.target)){sw.classList.remove('open');tg.setAttribute('aria-expanded','false');}});document.addEventListener('keydown',function(e){if(e.key==='Escape'){sw.classList.remove('open');tg.setAttribute('aria-expanded','false');}});}</script>
+</body>
+</html>
